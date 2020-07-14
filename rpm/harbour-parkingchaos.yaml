@@ -14,7 +14,7 @@ Sources:
 Description: |
   Parking Chaos is a clone of the famous "Rush Hour" or "Traffic Jam" game,
   written from scratch based on ParkMeeCrazy.
-  Move your vehicle to the exit on the right by dragging others out of the way.
+  Move the red tractor to the exit on the right by dragging others out of the way.
   Horizontal cars can only move left and right, vertical ones can only move
   up and down.
 Configure: none

@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # This file is part of harbour-parkingchaos.
-# Copyright (C) 2019-2020  Mirian Margiani
+# Copyright (C) 2020  Mirian Margiani
 #
 # harbour-parkingchaos is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by

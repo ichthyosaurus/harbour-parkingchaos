@@ -27,6 +27,15 @@ DISTFILES += qml/harbour-parkingchaos.qml \
     translations/*.ts \
     harbour-parkingchaos.desktop
 
+DISTFILES += qml/sf-about-page/*.qml \
+    qml/sf-about-page/license.html \
+    qml/sf-about-page/about.js
+
+data.files = data
+data.path = /usr/share/$${TARGET}
+
+INSTALLS += data
+
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
 
 # to disable building translations every time, comment out the

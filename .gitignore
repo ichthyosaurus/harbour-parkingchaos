@@ -3,6 +3,7 @@ icons-src/ships
 upstream
 datafile
 liverunner*
+data-src/levels*.json
 
 # C++ objects and libs
 *.slo
