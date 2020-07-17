@@ -1,10 +1,10 @@
 Name: harbour-parkingchaos
 Summary: Rush hour in your parking lot
-Version: 1.0
+Version: 1.0.0
 Release: 1
 # The contents of the Group field should be one of the groups listed here:
 # https://github.com/mer-tools/spectacle/blob/master/data/GROUPS
-Group: Qt/Qt
+Group: Amusements/Games
 URL: https://github.com/ichthyosaurus/harbour-parkingchaos
 License: GPLv3+
 # This must be generated before uploading a package to a remote build service.

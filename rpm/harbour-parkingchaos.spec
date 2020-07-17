@@ -9,9 +9,9 @@ Name:       harbour-parkingchaos
 # << macros
 
 Summary:    Rush hour in your parking lot
-Version:    1.0
+Version:    1.0.0
 Release:    1
-Group:      Qt/Qt
+Group:      Amusements/Games
 License:    GPLv3+
 URL:        https://github.com/ichthyosaurus/harbour-parkingchaos
 Source0:    %{name}-%{version}.tar.bz2
