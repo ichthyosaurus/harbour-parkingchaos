@@ -17,22 +17,55 @@
 # along with harbour-parkingchaos.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-# OUTPUT:
-# [
-#    {
-#       "minimumMoves" : 5,
-#       "tiles" : [
-#          {
-#             "isPlayer" : false,
-#             "orientation" : 1,
-#             "posX" : 0,
-#             "posY" : 0,
-#             "size" : 2
-#          },
-# ...
-
 db="levels-pmc.db"
 out="../data/levels.json"
+
+if [[ "$1" == "-h" || "$1" == "--help" ]]; then
+    cat <<EOF
+Import levels from ParkMeeCrazy to harbour-parkingchaos.
+
+Usage: convert.sh [-h|-V]
+
+INPUT: '$db'
+    The levels database from PMC with one table named 'levels'
+    containing all levels.
+
+    Columns: id, initialState, minMoves
+
+    We only use minMoves and initialState. The latter contains the map:
+        --| x,y,o,p,s,color ... |--
+    - o: orientation; 0=vertical, 1=horizontal
+    - p: player=1, other=0
+    - s: size, can be 2 or 3
+    - color: a color string, not used
+
+OUTPUT: '$out'
+    [
+        {
+            "minimumMoves" : 5,
+            "tiles" : [
+                {
+                    "isPlayer" : false,
+                    "orientation" : 1,
+                    "posX" : 0,
+                    "posY" : 0,
+                    "size" : 2
+                },
+            ...
+        ...
+    ...
+EOF
+    exit 0
+elif [[ "$1" == "-V" || "$1" == "--version" ]]; then
+    cat <<EOF
+This file is part of harbour-parkingchaos.
+Copyright (C) 2020  Mirian Margiani
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+EOF
+    exit 0
+fi
 
 if [[ ! -f "$db" ]]; then
     echo "$db not found"

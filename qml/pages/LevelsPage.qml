@@ -19,6 +19,7 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import "../components"
 
 Page {
     id: page
@@ -57,21 +58,23 @@ Page {
                 map: tiles
             }
 
-            Label {
+            InfoLabel {
                 anchors {
                     left: parent.left; right: parent.right
                     top: board.bottom; bottom: parent.bottom
                     margins: Theme.paddingMedium
                 }
-
-                verticalAlignment: Text.AlignVCenter
-                horizontalAlignment: Text.AlignHCenter
-                truncationMode: TruncationMode.Fade
-                color: delegate.highlighted ? Theme.highlightColor : Theme.primaryColor
-                text: qsTr("Level %1").arg(index+1) + "\n" + qsTr("Moves: %1").arg(minimumMoves)
+                highlighted: delegate.highlighted
+                level: index+1
+                currentMoves: -1
+                minMoves: minimumMoves
             }
         }
 
         VerticalScrollDecorator {}
+    }
+
+    Component.onCompleted: {
+        grid.positionViewAtIndex(current.index, GridView.Center);
     }
 }

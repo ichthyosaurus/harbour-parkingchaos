@@ -19,22 +19,19 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import "../components"
 
-CoverBackground {
-    Board {
-        id: board
-        anchors { top: parent.top; topMargin: 2*Theme.paddingMedium }
-        isPreview: true
-        map: current.map
-    }
+Label {
+    verticalAlignment: Text.AlignVCenter
+    horizontalAlignment: Text.AlignHCenter
+    truncationMode: TruncationMode.Fade
 
-    InfoLabel {
-        highlighted: false
-        anchors {
-            top: board.bottom; bottom: parent.bottom
-            left: parent.left; right: parent.right
-            margins: Theme.paddingMedium
-        }
-    }
+    highlighted: false
+    property int level: current.level
+    property int currentMoves: current.moves
+    property int minMoves: current.minimumMoves
+
+    text: qsTr("Level %1").arg(level) +
+          "\n" +
+          (currentMoves >= 0 ? qsTr("Moves: %1 / %2").arg(currentMoves).arg(minMoves) :
+                              qsTr("Moves: %1").arg(minMoves))
 }

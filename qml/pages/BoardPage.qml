@@ -20,14 +20,19 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import "../sf-about-page/about.js" as About
+import "../components"
 
 Page {
     id: page
     allowedOrientations: Orientation.PortraitMask
 
     SilicaFlickable {
+        id: flick
         anchors.fill: parent
         contentHeight: column.height
+        interactive: true
+
+        onInteractiveChanged: console.log("menus enabled:", interactive)
 
         PullDownMenu {
             MenuItem {
@@ -53,6 +58,11 @@ Page {
                 id: board
                 isPreview: false
                 map: current.map
+                onContainsMouseChanged: if (containsMouse) flick.interactive = false
+                InverseMouseArea {
+                    anchors.fill: parent
+                    onPressedOutside: flick.interactive = true
+                }
             }
 
             Item {
@@ -60,18 +70,13 @@ Page {
                 height: 2*Theme.paddingLarge
             }
 
-            Label {
+            InfoLabel {
                 id: infoLabel
+                highlighted: true
                 anchors {
                     left: parent.left; right: parent.right
                     margins: Theme.horizontalPageMargin
                 }
-
-                verticalAlignment: Text.AlignVCenter
-                horizontalAlignment: Text.AlignHCenter
-                truncationMode: TruncationMode.Fade
-                color: Theme.highlightColor
-                text: qsTr("Level %1").arg(current.level) + "\n" + qsTr("Moves: %1 / %2").arg(current.moves).arg(current.minimumMoves)
             }
 
             Item {

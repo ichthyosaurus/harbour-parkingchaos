@@ -24,7 +24,8 @@ var TRANSLATIONS = [
 // Please add yourself the the list of contributors.
 var DEVELOPMENT = [
     {label: qsTr("Programming"), values: ["Mirian Margiani"]},
-    {label: qsTr("Graphics Design"), values: ["Mirian Margiani", "Karsten Todtermuschke", "Michel Van den Bergh"]},
+    {label: qsTr("Graphics Design"),
+        values: ["Mirian Margiani", "Karsten Todtermuschke", "Michel Van den Bergh"]},
     {label: qsTr("ParkMeeCrazy"), values: ["Mures Andone", "Karsten Todtermuschke"]},
 ]
 
@@ -43,9 +44,9 @@ var APPINFO = {
     sourcesText: "",
 
     extraInfoTitle: qsTr("Acknowledgements"),
-    extraInfoText: qsTr("<small><em>Parking Chaos</em> is a re-write of <em>ParkMeeCrazy</em> and " +
-                        "uses levels and graphics based on theirs. <em>ParkMeeCrazy</em> is released " +
-                        "under the terms of the GNU GPL v3+.</small><br><br>Thank you!"),
+    extraInfoText: qsTr("<small><em>Parking Chaos</em> uses levels and graphics based on " +
+                        "data from <em>ParkMeeCrazy</em>, which is released under the terms of the GNU GPL v3+." +
+                        "</small><br>Thank you!"),
     extraInfoLinkText: "ParkMeeCrazy",
     extraInfoLink: "https://sourceforge.net/projects/parkmeecrazyforsailfishos",
 

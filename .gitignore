@@ -4,6 +4,7 @@ upstream
 datafile
 liverunner*
 data-src/levels*.json
+dist
 
 # C++ objects and libs
 *.slo

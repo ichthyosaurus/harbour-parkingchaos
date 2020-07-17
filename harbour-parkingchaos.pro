@@ -19,6 +19,8 @@ SOURCES += src/harbour-parkingchaos.cpp
 DISTFILES += qml/harbour-parkingchaos.qml \
     qml/cover/*.qml \
     qml/pages/*.qml \
+    qml/components/*.qml \
+    qml/components/*.js \
     qml/images/*.png \
     rpm/harbour-parkingchaos.changes.in \
     rpm/harbour-parkingchaos.changes.run.in \
@@ -46,4 +48,5 @@ CONFIG += sailfishapp_i18n
 # planning to localize your app, remember to comment out the
 # following TRANSLATIONS line. And also do not forget to
 # modify the localized app name in the the .desktop file.
-TRANSLATIONS += translations/harbour-parkingchaos-de.ts
+TRANSLATIONS += translations/harbour-parkingchaos-de.ts \
+    translations/harbour-parkingchaos-en.ts

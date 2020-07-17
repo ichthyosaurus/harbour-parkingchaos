@@ -54,14 +54,6 @@
         <source>Parking Chaos</source>
         <translation>Parkplatzchaos</translation>
     </message>
-    <message>
-        <source>Level %1</source>
-        <translation>Level %1</translation>
-    </message>
-    <message>
-        <source>Moves: %1 / %2</source>
-        <translation>Züge: %1 / %2</translation>
-    </message>
 </context>
 <context>
     <name>ContributorsPage</name>
@@ -79,7 +71,7 @@
     </message>
 </context>
 <context>
-    <name>CoverPage</name>
+    <name>InfoLabel</name>
     <message>
         <source>Level %1</source>
         <translation>Level %1</translation>
@@ -88,20 +80,16 @@
         <source>Moves: %1 / %2</source>
         <translation>Züge: %1 / %2</translation>
     </message>
+    <message>
+        <source>Moves: %1</source>
+        <translation>Züge: %1</translation>
+    </message>
 </context>
 <context>
     <name>LevelsPage</name>
     <message>
         <source>Levels</source>
         <translation>Levels</translation>
-    </message>
-    <message>
-        <source>Level %1</source>
-        <translation>Level %1</translation>
-    </message>
-    <message>
-        <source>Moves: %1</source>
-        <translation>Züge: %1</translation>
     </message>
 </context>
 <context>
@@ -142,14 +130,14 @@
         <translation>Danksagungen</translation>
     </message>
     <message>
-        <source>&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; is a re-write of &lt;em&gt;ParkMeeCrazy&lt;/em&gt; and uses levels and graphics based on theirs. &lt;em&gt;ParkMeeCrazy&lt;/em&gt; is released under the terms of the GNU GPL v3+.&lt;/small&gt;&lt;br&gt;&lt;br&gt;Thank you!</source>
-        <translation>&lt;small&gt;&lt;em&gt;Parkplatzchaos&lt;/em&gt; ist von Grund auf neu geschrieben, verwendet aber Levels und Grafiken basierend auf dem originalen &lt;em&gt;ParkMeeCrazy&lt;/em&gt;. &lt;em&gt;ParkMeeCrazy&lt;/em&gt; wurde unter den Bedingungen der GNU GPL v3+ veröffentlicht.&lt;/small&gt;&lt;br&gt;&lt;br&gt;Vielen Dank!</translation>
+        <source>&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; uses levels and graphics based on data from &lt;em&gt;ParkMeeCrazy&lt;/em&gt;, which is released under the terms of the GNU GPL v3+.&lt;/small&gt;&lt;br&gt;Thank you!</source>
+        <translation>&lt;small&gt;&lt;em&gt;Parkplatzchaos&lt;/em&gt; verwendet Levels und Grafiken basierend auf Daten von &lt;em&gt;ParkMeeCrazy&lt;/em&gt;, das unter der GNU GPL v3+ veröffentlicht wurde.&lt;/small&gt;&lt;br&gt;Vielen Dank!</translation>
     </message>
 </context>
 <context>
     <name>harbour-parkingchaos</name>
     <message>
-        <source>Win!</source>
+        <source>Won!</source>
         <translation>Gewonnen!</translation>
     </message>
     <message>
@@ -159,6 +147,13 @@
     <message>
         <source>Next level</source>
         <translation>Nächstes Level</translation>
+    </message>
+    <message numerus="yes">
+        <source>You completed this level in %L1 move(s)!</source>
+        <translation>
+            <numerusform>Sie haben das Level in einem Zug abgeschlossen!</numerusform>
+            <numerusform>Sie haben das Level in %L1 Zügen abgeschlossen!</numerusform>
+        </translation>
     </message>
 </context>
 </TS>

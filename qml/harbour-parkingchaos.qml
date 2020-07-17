@@ -25,6 +25,7 @@ import "pages"
 
 ApplicationWindow
 {
+    id: app
     initialPage: Component { BoardPage { } }
     cover: Qt.resolvedUrl("cover/CoverPage.qml")
     allowedOrientations: defaultAllowedOrientations
@@ -87,7 +88,7 @@ ApplicationWindow
             Label {
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: parent.width - 2*Theme.horizontalPageMargin
-                text: qsTr("Win!");
+                text: qsTr("Won!");
                 font.pixelSize: Theme.fontSizeExtraLarge
                 color: Theme.highlightColor
                 horizontalAlignment: Text.AlignHCenter
@@ -96,7 +97,7 @@ ApplicationWindow
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: parent.width - 2*Theme.horizontalPageMargin
                 wrapMode: Text.Wrap
-                text: qsTr("You completed this level in %1 move(s)!".arg(current.moves), "", current.moves);
+                text: qsTr("You completed this level in %L1 move(s)!", "", current.moves).arg(current.moves);
                 font.pixelSize: Theme.fontSizeLarge
                 color: Theme.secondaryHighlightColor
                 horizontalAlignment: Text.AlignHCenter

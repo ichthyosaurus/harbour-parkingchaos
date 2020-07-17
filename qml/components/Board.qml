@@ -30,6 +30,7 @@ Item {
     property bool isPreview: false
     property bool highlighted: false
     property bool debug: false
+    readonly property bool containsMouse: guardian.containsMouse
 
     property ListModel map: ListModel {}
 
@@ -37,6 +38,7 @@ Item {
     readonly property int goalY: 2
     readonly property int cellsPerRow: 6
     readonly property double cellWidth: width/cellsPerRow
+    readonly property color playerColor: "red"
 
     Rectangle {
         anchors { fill: parent; margins: -7 }
@@ -58,6 +60,7 @@ Item {
     }
 
     MouseArea {
+        id: guardian
         anchors.fill: parent
         preventStealing: true
         enabled: !isPreview
@@ -86,7 +89,7 @@ Item {
                     border.width: 7
                     border.color: Qt.lighter(color)
                     radius: 20
-                    opacity: isPreview ? 1.0 : Theme.opacityHigh
+                    opacity: isPreview ? 1.0 : 0.9//Theme.opacityHigh
                     color: (mouseArea.pressed || root.highlighted) ? Qt.darker(baseColor) : baseColor
 
                     property color baseColor: Theme.secondaryColor
@@ -102,11 +105,11 @@ Item {
 
                     Component.onCompleted: {
                         if (isPlayer) {
-                            baseColor = "red";
+                            baseColor = playerColor;
                         } else if (isPreview) {
-                            baseColor = Board.randomColor(60, 300)
+                            baseColor = Board.getColor(60, 300);
                         } else {
-                            baseColor = Board.randomColor(120, 250)
+                            baseColor = Board.getColor(120, 250);
                         }
                     }
                 }
@@ -116,7 +119,7 @@ Item {
                     anchors { centerIn: borderRect; margins: 15 }
                     width: orientation === oHORIZONTAL ? borderRect.width : borderRect.height
                     height: orientation === oHORIZONTAL ? borderRect.height : borderRect.width
-                    source: isPlayer === true ? Board.playerTile() : Board.randomTile(size)
+                    source: isPlayer === true ? Board.getPlayerTile() : Board.getTile(size, index)
                     rotation: orientation === oHORIZONTAL ? 0 : 90
                 }
 

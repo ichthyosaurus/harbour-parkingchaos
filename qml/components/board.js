@@ -21,7 +21,7 @@
 
 var TILES_COUNT_BY_SIZE = [0, 0, 7, 5]
 
-function randomColor(iDarkLuma, iLightLuma) {
+function getColor(iDarkLuma, iLightLuma) {
     // adapted from https://stackoverflow.com/a/14810261
     // For pastel, pass in higher luma dark/light integers - ie getRandomColor(120, 250).
     if (iDarkLuma === undefined) iDarkLuma = 50;
@@ -43,15 +43,15 @@ function randomColor(iDarkLuma, iLightLuma) {
     return '#'+sColour;
 }
 
-function randomTile(size) {
+function getTile(size, tileIndex) {
     if (size !== 2 && size !== 3) {
-        console.error("invalid tile size:", size)
-        return ""
+        console.error("invalid tile size:", size);
+        return "";
     }
 
-    return "../images/tile-0%1-0%2.png".arg(size).arg(Math.floor(Math.random()*TILES_COUNT_BY_SIZE[size])+1)
+    return "../images/tile-0%1-0%2.png".arg(size).arg((tileIndex%TILES_COUNT_BY_SIZE[size])+1);
 }
 
-function playerTile() {
+function getPlayerTile() {
     return "../images/tile-player.png"
 }
