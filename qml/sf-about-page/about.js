@@ -15,8 +15,8 @@
 //          [...]
 //
 var TRANSLATIONS = [
-    {label: qsTr("English"), values: ["Mirian Margiani"]},
-    {label: qsTr("German"), values: ["Mirian Margiani"]}
+    {label: qsTr("Swedish"), values: ["Åke Engelbrektson"]},
+    {label: qsTr("English, German"), values: ["Mirian Margiani"]}
 ]
 
 
@@ -52,7 +52,7 @@ var APPINFO = {
 
     enableContributorsPage: true, // whether to enable 'ContributorsPage.qml'
     contribDevelopment: DEVELOPMENT,
-    contribTranslations: [] //TRANSLATIONS // enable when there are other contributors
+    contribTranslations: TRANSLATIONS
 }
 
 function aboutPageUrl() {
