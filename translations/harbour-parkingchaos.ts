@@ -102,15 +102,7 @@
 <context>
     <name>about</name>
     <message>
-        <source>English</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Programming</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>German</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -131,6 +123,14 @@
     </message>
     <message>
         <source>&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; uses levels and graphics based on data from &lt;em&gt;ParkMeeCrazy&lt;/em&gt;, which is released under the terms of the GNU GPL v3+.&lt;/small&gt;&lt;br&gt;Thank you!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Swedish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>English, German</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -102,16 +102,8 @@
 <context>
     <name>about</name>
     <message>
-        <source>English</source>
-        <translation>Engelska</translation>
-    </message>
-    <message>
         <source>Programming</source>
         <translation>Programmering</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation>Tyska</translation>
     </message>
     <message>
         <source>Graphics Design</source>
@@ -132,6 +124,14 @@
     <message>
         <source>&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; uses levels and graphics based on data from &lt;em&gt;ParkMeeCrazy&lt;/em&gt;, which is released under the terms of the GNU GPL v3+.&lt;/small&gt;&lt;br&gt;Thank you!</source>
         <translation>&lt;small&gt;&lt;em&gt;Parkeringskaos&lt;/em&gt; använder bivåer och grafik baserat på data från &lt;em&gt;ParkMeeCrazy&lt;/em&gt;, som publicerats under villkoren för GNU GPL v3+.&lt;/small&gt;&lt;br&gt;Tack!</translation>
+    </message>
+    <message>
+        <source>Swedish</source>
+        <translation>Svenska</translation>
+    </message>
+    <message>
+        <source>English, German</source>
+        <translation>Engelska, Tyska</translation>
     </message>
 </context>
 <context>
