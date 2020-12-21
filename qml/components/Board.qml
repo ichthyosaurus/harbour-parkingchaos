@@ -80,8 +80,8 @@ Item {
                 height: orientation === oHORIZONTAL ? 1*cellWidth : size*cellWidth
                 enabled: !isPreview
 
-                property int _xBeforeDrag: x
-                property int _yBeforeDrag: y
+                property double _xBeforeDrag: x
+                property double _yBeforeDrag: y
 
                 Rectangle {
                     id: borderRect
@@ -127,8 +127,8 @@ Item {
                     id: mouseArea
                     anchors.fill: parent
                     preventStealing: true
-                    readonly property int pX: parent.x
-                    readonly property int pY: parent.y
+                    readonly property double pX: parent.x
+                    readonly property double pY: parent.y
 
                     drag.target: tile
                     drag.axis: orientation === oHORIZONTAL ? Drag.XAxis : Drag.YAxis
