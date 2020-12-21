@@ -30,7 +30,8 @@ Item {
     property bool isPreview: false
     property bool highlighted: false
     property bool debug: false
-    readonly property bool containsMouse: guardian.containsMouse
+    readonly property bool containsMouse: guardian.containsMouse || _tileContainsMouse
+    property bool _tileContainsMouse: false
 
     property ListModel map: ListModel {}
 
@@ -137,6 +138,8 @@ Item {
                     drag.minimumY: pY; drag.maximumY: pY
 
                     onReleased: {
+                        _tileContainsMouse = false
+
                         // update current position in the model
                         var cellX = Math.round(pX/cellWidth);
                         var cellY = Math.round(pY/cellWidth);
@@ -158,6 +161,8 @@ Item {
                     }
 
                     onPressed: {
+                        _tileContainsMouse = true
+
                         // re-calculate position boundaries
                         console.log("re-calculating:", index);
                         _xBeforeDrag = pX; _yBeforeDrag = pY;

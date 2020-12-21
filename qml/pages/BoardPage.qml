@@ -58,7 +58,7 @@ Page {
                 id: board
                 isPreview: false
                 map: current.map
-                onContainsMouseChanged: if (containsMouse) flick.interactive = false
+                onContainsMouseChanged: flick.interactive = !containsMouse
                 InverseMouseArea {
                     anchors.fill: parent
                     onPressedOutside: flick.interactive = true
