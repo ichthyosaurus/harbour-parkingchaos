@@ -12,5 +12,10 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
-* Fri Jul 17 2020 Mirian Margiani <> 1.0.0-1
+* Mon Dec 21 2020 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.0.1-1
+- improved compatibility with smaller screens (smaller than Xperia X)
+- improved detection of when to disable pulley menus
+- updated all translations
+
+* Fri Jul 17 2020 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.0.0-1
 - first public release
