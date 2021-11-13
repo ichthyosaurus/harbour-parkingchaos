@@ -50,4 +50,6 @@ CONFIG += sailfishapp_i18n
 # modify the localized app name in the the .desktop file.
 TRANSLATIONS += translations/harbour-parkingchaos-de.ts \
     translations/harbour-parkingchaos-en.ts \
-    translations/harbour-parkingchaos-sv.ts 
+    translations/harbour-parkingchaos-sv.ts \
+    translations/harbour-parkingchaos-ru.ts
+
