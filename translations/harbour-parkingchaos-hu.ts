@@ -115,7 +115,7 @@
     </message>
     <message>
         <source>Rush hour in your parking lot!&lt;br&gt;&lt;br&gt;&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; is a clone of the famous “Rush Hour” or “Traffic Jam” game, written from scratch based on &lt;em&gt;ParkMeeCrazy&lt;/em&gt;.&lt;br&gt;Move the red tractor to the exit on the right by dragging others out of the way. Horizontal cars can only move left and right, vertical ones can only move up and down.&lt;/small&gt;</source>
-        <translation>Csúcsforgalom a parkolódban!&lt;br&gt;&lt;br&gt;&lt;small&gt;A &lt;em&gt;Parking Chaos&lt;/em&gt; a “Rush Hour” vagy “Traffic Jam” nevű játékok klónja, a semmiből íródott a &lt;em&gt;ParkMeeCrazy&lt;em&gt; alapján.&lt;br&gt;Mozgasd a piros traktort a jobb oldali kijárathoz úgy, hogy a többieket félrehúzod az útból. A vízszintes járművek csak jobbra és balra mozoghatnak, a függőlegesek csak felfelé és lefelé.&lt;/small&gt;</translation>
+        <translation>Csúcsforgalom a parkolódban!&lt;br&gt;&lt;br&gt;&lt;small&gt;A &lt;em&gt;Parking Chaos&lt;/em&gt; a híres “Rush Hour” vagy “Traffic Jam” nevű játékok klónja, a semmiből íródott a &lt;em&gt;ParkMeeCrazy&lt;em&gt; alapján.&lt;br&gt;Mozgasd a piros traktort a jobb oldali kijárathoz úgy, hogy a többieket félrehúzod az útból. A vízszintes járművek csak jobbra és balra mozoghatnak, a függőlegesek csak felfelé és lefelé.&lt;/small&gt;</translation>
     </message>
     <message>
         <source>Acknowledgements</source>
