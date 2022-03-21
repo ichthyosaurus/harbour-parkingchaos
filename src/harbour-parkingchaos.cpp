@@ -1,6 +1,6 @@
 /*
  * This file is part of harbour-parkingchaos.
- * Copyright (C) 2020  Mirian Margiani
+ * Copyright (C) 2020-2022  Mirian Margiani
  *
  * harbour-parkingchaos is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -28,6 +28,9 @@
 int main(int argc, char *argv[])
 {
     QScopedPointer<QGuiApplication> app(SailfishApp::application(argc, argv));
+    app->setOrganizationName("harbour-parkingchaos"); // needed for Sailjail
+    app->setApplicationName("harbour-parkingchaos");
+
     QScopedPointer<QQuickView> view(SailfishApp::createView());
 
     QQmlContext *ctxt = view.data()->rootContext();

@@ -13,3 +13,11 @@ Name=Parking Chaos
 Name[de]=Parkplatzchaos
 Name[en]=Parking Chaos
 Name[sv]=Parkeringskaos
+
+[X-Sailjail]
+Permissions=
+OrganizationName=harbour-parkingchaos
+ApplicationName=harbour-parkingchaos
+
+[X-HarbourBackup]
+BackupConfigList=/apps/harbour-parkingchaos/
