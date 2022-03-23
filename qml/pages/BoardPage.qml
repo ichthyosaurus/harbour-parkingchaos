@@ -19,7 +19,6 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import "../sf-about-page/about.js" as About
 import "../components"
 
 Page {
@@ -37,7 +36,7 @@ Page {
         PullDownMenu {
             MenuItem {
                 text: qsTr("About")
-                onClicked: About.pushAboutPage(pageStack)
+                onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
             }
             MenuItem {
                 text: qsTr("Level selection")

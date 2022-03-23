@@ -20,7 +20,6 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import Nemo.Configuration 1.0
-import "sf-about-page/about.js" as About
 import "pages"
 
 ApplicationWindow
@@ -146,13 +145,11 @@ ApplicationWindow
     }
 
     Component.onCompleted: {
-        About.VERSION_NUMBER = versionNumber;
-
         if (config.configMigrated < 1) {
             config.migrate()
         }
 
-        var levelsDatabase = dataDirectory + "/levels.json";
+        var levelsDatabase = DATA_DIRECTORY + "/levels.json";
         console.log("loading levels from:", levelsDatabase);
 
         var xhr = new XMLHttpRequest;

@@ -6,7 +6,7 @@ Release: 1
 # https://github.com/mer-tools/spectacle/blob/master/data/GROUPS
 Group: Amusements/Games
 URL: https://github.com/ichthyosaurus/harbour-parkingchaos
-License: GPLv3+
+License: GPL-3.0-or-later
 # This must be generated before uploading a package to a remote build service.
 # Usually this line does not need to be modified.
 Sources:
@@ -19,6 +19,9 @@ Description: |
   up and down.
 Configure: none
 Builder: qmake5
+QMakeOptions:
+    - VERSION=%{version}
+    - RELEASE=%{release}
 
 # This section specifies build dependencies that are resolved using pkgconfig.
 # This is the preferred way of specifying build dependencies for your package.
