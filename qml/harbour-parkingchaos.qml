@@ -53,9 +53,9 @@ ApplicationWindow
             console.log("error: failed to activate level '%1'".arg(index));
             return;
         } else {
-            lastLevelIndex.value = index;
-            lastLevelMap.value = "";
-            lastLevelMoves.value = 0;
+            config.lastLevelIndex = index;
+            config.lastLevelMap = "";
+            config.lastLevelMoves = 0;
         }
 
         // copy the map so we can modify it, but reset it
@@ -120,28 +120,37 @@ ApplicationWindow
         }
     }
 
-    ConfigurationValue {
-        id: lastLevelIndex
-        key: "/lastLevelIndex"
-        defaultValue: 0
-    }
+    property ConfigurationGroup config: ConfigurationGroup {
+        path: "/apps/harbour-parkingchaos"
+        property int configMigrated: 0
+        property int lastLevelIndex: 0
 
-    ConfigurationValue {
-        // TODO implement saving the current status
-        id: lastLevelMap
-        key: "/lastLevelMap"
-        defaultValue: ""
-    }
+        property int lastLevelMoves: 0  // TODO implement saving current status
+        property string lastLevelMap: ""  // TODO implement saving current status
 
-    ConfigurationValue {
-        // TODO cf. lastLevelMap
-        id: lastLevelMoves
-        key: "/lastLevelMoves"
-        defaultValue: 0
+        function migrate() {
+            if (configMigrated === 0) {
+                var _legacyConfig0 = Qt.createQmlObject(
+                            "import Nemo.Configuration 1.0; ConfigurationGroup { path: '/' }",
+                            appWindow, 'LegacyConfiguration0')
+                lastLevelIndex = _legacyConfig0.value('/lastLevelIndex', 0)
+                lastLevelMap = _legacyConfig0.value('/lastLevelMap', '')
+                lastLevelMoves = _legacyConfig0.value('/lastLevelMoves', 0)
+                configMigrated = 1
+                _legacyConfig0.setValue('/lastLevelIndex', undefined)
+                _legacyConfig0.setValue('/lastLevelMap', undefined)
+                _legacyConfig0.setValue('/lastLevelMoves', undefined)
+                _legacyConfig0.destroy()
+            }
+        }
     }
 
     Component.onCompleted: {
         About.VERSION_NUMBER = versionNumber;
+
+        if (config.configMigrated < 1) {
+            config.migrate()
+        }
 
         var levelsDatabase = dataDirectory + "/levels.json";
         console.log("loading levels from:", levelsDatabase);
@@ -158,16 +167,16 @@ ApplicationWindow
                     levelsModel.append(response[i]);
                 }
 
-                levelRequested(lastLevelIndex.value);
+                levelRequested(config.lastLevelIndex);
 
-                if (lastLevelMap.value !== "") {
-                    var map = JSON.parse(lastLevelMap.value);
+                if (config.lastLevelMap !== "") {
+                    var map = JSON.parse(config.lastLevelMap);
                     current.map.clear();
                     for (var j in map) {
                         current.map.append(map[j]);
                     }
 
-                    current.moves = lastLevelMoves.value;
+                    current.moves = config.lastLevelMoves;
                 }
             }
         };
