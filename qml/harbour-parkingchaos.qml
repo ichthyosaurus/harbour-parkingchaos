@@ -118,7 +118,7 @@ ApplicationWindow
             if (configMigrated === 0) {
                 var _legacyConfig0 = Qt.createQmlObject(
                             "import Nemo.Configuration 1.0; ConfigurationGroup { path: '/' }",
-                            appWindow, 'LegacyConfiguration0')
+                            app, 'LegacyConfiguration0')
                 lastLevelIndex = _legacyConfig0.value('/lastLevelIndex', 0)
                 lastLevelMap = _legacyConfig0.value('/lastLevelMap', '')
                 lastLevelMoves = _legacyConfig0.value('/lastLevelMoves', 0)
