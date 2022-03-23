@@ -16,16 +16,8 @@
         <translation>Parkeringskaos</translation>
     </message>
     <message>
-        <source>Rush hour in your parking lot!&lt;br&gt;&lt;br&gt;&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; is a clone of the famous “Rush Hour” or “Traffic Jam” game, written from scratch based on &lt;em&gt;ParkMeeCrazy&lt;/em&gt;.&lt;br&gt;Move the red tractor to the exit on the right by dragging others out of the way. Horizontal cars can only move left and right, vertical ones can only move up and down.&lt;/small&gt;</source>
-        <translation>Rusningstid på din parkeringsplats!&lt;br&gt;&lt;br&gt;&lt;small&gt;&lt;em&gt;Parkeringskaos&lt;/em&gt; är en klon av den kända appen “Rush Hour” eller “Traffic Jam”, skriven från grunden baserat på &lt;em&gt;ParkMeeCrazy&lt;/em&gt;.&lt;br&gt;Flytta den röda traktorn till utgången på höger sida, genom att dra undan de andra fordonen. Horisontella fördon kan endast flyttas åt vänster och höger, vertikala kan endast flyttas uppåt och neråt.&lt;/small&gt;</translation>
-    </message>
-    <message>
         <source>Acknowledgments</source>
         <translation>Erkännanden</translation>
-    </message>
-    <message>
-        <source>&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; uses levels and graphics based on data from &lt;em&gt;ParkMeeCrazy&lt;/em&gt;, which is released under the terms of the GNU GPL v3+.&lt;/small&gt;&lt;br&gt;Thank you!</source>
-        <translation>&lt;small&gt;&lt;em&gt;Parkeringskaos&lt;/em&gt; använder bivåer och grafik baserat på data från &lt;em&gt;ParkMeeCrazy&lt;/em&gt;, som publicerats under villkoren för GNU GPL v3+.&lt;/small&gt;&lt;br&gt;Tack!</translation>
     </message>
     <message>
         <source>Programming</source>
@@ -58,6 +50,18 @@
     <message>
         <source>English, German</source>
         <translation>Engelska, Tyska</translation>
+    </message>
+    <message>
+        <source>Rush hour in your parking lot!&lt;br&gt;&lt;br&gt; &lt;i&gt;Parking Chaos&lt;/i&gt; is a clone of the famous “Rush Hour” or “Traffic Jam” game, written from scratch based on &lt;i&gt;ParkMeeCrazy&lt;/i&gt;.&lt;br&gt;&lt;br&gt; Move the red tractor to the exit on the right by dragging others out of the way. Horizontal cars can only move left and right, vertical ones can only move up and down.</source>
+        <translation>Rusningstid på din parkeringsplats!&lt;br&gt;&lt;br&gt; &lt;i&gt;Parkeringskaos&lt;/i&gt; är en klon av den kända appen “Rush Hour” eller “Traffic Jam”, skriven från grunden baserat på &lt;i&gt;ParkMeeCrazy&lt;/i&gt;.&lt;br&gt;&lt;br&gt; Flytta den röda traktorn till utgången på höger sida, genom att dra undan de andra fordonen. Horisontella fördon kan endast flyttas åt vänster och höger, vertikala kan endast flyttas uppåt och neråt.</translation>
+    </message>
+    <message>
+        <source>Graphics and levels are based on data from ParkMeeCrazy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;Parking Chaos&lt;/i&gt; uses levels and graphics based on data from &lt;i&gt;ParkMeeCrazy&lt;/i&gt;, which is released under the terms of the GNU GPL v3+.&lt;br&gt;Thank you!</source>
+        <translation>&lt;i&gt;Parkeringskaos&lt;/i&gt; använder bivåer och grafik baserat på data från &lt;i&gt;ParkMeeCrazy&lt;/i&gt;, som publicerats under villkoren för GNU GPL v3+.&lt;br&gt;Tack!</translation>
     </message>
 </context>
 <context>

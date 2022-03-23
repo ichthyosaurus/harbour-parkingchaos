@@ -16,15 +16,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Rush hour in your parking lot!&lt;br&gt;&lt;br&gt;&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; is a clone of the famous “Rush Hour” or “Traffic Jam” game, written from scratch based on &lt;em&gt;ParkMeeCrazy&lt;/em&gt;.&lt;br&gt;Move the red tractor to the exit on the right by dragging others out of the way. Horizontal cars can only move left and right, vertical ones can only move up and down.&lt;/small&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Acknowledgments</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; uses levels and graphics based on data from &lt;em&gt;ParkMeeCrazy&lt;/em&gt;, which is released under the terms of the GNU GPL v3+.&lt;/small&gt;&lt;br&gt;Thank you!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -57,6 +49,18 @@
     </message>
     <message>
         <source>English, German</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rush hour in your parking lot!&lt;br&gt;&lt;br&gt; &lt;i&gt;Parking Chaos&lt;/i&gt; is a clone of the famous “Rush Hour” or “Traffic Jam” game, written from scratch based on &lt;i&gt;ParkMeeCrazy&lt;/i&gt;.&lt;br&gt;&lt;br&gt; Move the red tractor to the exit on the right by dragging others out of the way. Horizontal cars can only move left and right, vertical ones can only move up and down.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Graphics and levels are based on data from ParkMeeCrazy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;Parking Chaos&lt;/i&gt; uses levels and graphics based on data from &lt;i&gt;ParkMeeCrazy&lt;/i&gt;, which is released under the terms of the GNU GPL v3+.&lt;br&gt;Thank you!</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

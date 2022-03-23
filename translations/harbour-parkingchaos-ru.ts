@@ -16,16 +16,8 @@
         <translation>Хаос на парковке</translation>
     </message>
     <message>
-        <source>Rush hour in your parking lot!&lt;br&gt;&lt;br&gt;&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; is a clone of the famous “Rush Hour” or “Traffic Jam” game, written from scratch based on &lt;em&gt;ParkMeeCrazy&lt;/em&gt;.&lt;br&gt;Move the red tractor to the exit on the right by dragging others out of the way. Horizontal cars can only move left and right, vertical ones can only move up and down.&lt;/small&gt;</source>
-        <translation>Час пик на парковке!&lt;br&gt;&lt;br&gt;&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; клон игры “Час пик” или “Пробки”, созданной с нуля на основе  &lt;em&gt;ParkMeeCrazy&lt;/em&gt;.&lt;br&gt;Переместите красный трактор к выходу справа, передвигая других с дороги. Горизонтальные машины могут двигаться только влево и право, вертикальные-только вверх и вниз .&lt;/small&gt;</translation>
-    </message>
-    <message>
         <source>Acknowledgments</source>
         <translation>Благодарности</translation>
-    </message>
-    <message>
-        <source>&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; uses levels and graphics based on data from &lt;em&gt;ParkMeeCrazy&lt;/em&gt;, which is released under the terms of the GNU GPL v3+.&lt;/small&gt;&lt;br&gt;Thank you!</source>
-        <translation>&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; использует уровни и графику на основе данных из  &lt;em&gt;ParkMeeCrazy&lt;/em&gt;, which is released under the terms of the GNU GPL v3+.&lt;/small&gt;&lt;br&gt;Thank you!</translation>
     </message>
     <message>
         <source>Programming</source>
@@ -58,6 +50,18 @@
     <message>
         <source>English, German</source>
         <translation>Английский, Немецкий</translation>
+    </message>
+    <message>
+        <source>Rush hour in your parking lot!&lt;br&gt;&lt;br&gt; &lt;i&gt;Parking Chaos&lt;/i&gt; is a clone of the famous “Rush Hour” or “Traffic Jam” game, written from scratch based on &lt;i&gt;ParkMeeCrazy&lt;/i&gt;.&lt;br&gt;&lt;br&gt; Move the red tractor to the exit on the right by dragging others out of the way. Horizontal cars can only move left and right, vertical ones can only move up and down.</source>
+        <translation>Час пик на парковке!&lt;br&gt;&lt;br&gt; &lt;i&gt;Parking Chaos&lt;/i&gt; клон игры “Час пик” или “Пробки”, созданной с нуля на основе &lt;i&gt;ParkMeeCrazy&lt;/i&gt;.&lt;br&gt;&lt;br&gt; Переместите красный трактор к выходу справа, передвигая других с дороги. Горизонтальные машины могут двигаться только влево и право, вертикальные-только вверх и вниз .</translation>
+    </message>
+    <message>
+        <source>Graphics and levels are based on data from ParkMeeCrazy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;i&gt;Parking Chaos&lt;/i&gt; uses levels and graphics based on data from &lt;i&gt;ParkMeeCrazy&lt;/i&gt;, which is released under the terms of the GNU GPL v3+.&lt;br&gt;Thank you!</source>
+        <translation>&lt;i&gt;Parking Chaos&lt;/i&gt; использует уровни и графику на основе данных из &lt;i&gt;ParkMeeCrazy&lt;/i&gt;, which is released under the terms of the GNU GPL v3+.&lt;br&gt;Thank you!</translation>
     </message>
 </context>
 <context>

@@ -32,12 +32,12 @@ AboutPageBase {
     appIcon: Qt.resolvedUrl("../images/harbour-parkingchaos.png")
     appVersion: APP_VERSION
     appRelease: APP_RELEASE
-    description: qsTr("Rush hour in your parking lot!<br><br>" +
-                      '<small><em>Parking Chaos</em> is a clone of the famous “Rush Hour” or “Traffic Jam” game, ' +
-                      'written from scratch based on <em>ParkMeeCrazy</em>.<br>' +
+    description: qsTr("Rush hour in your parking lot!<br><br> " +
+                      '<i>Parking Chaos</i> is a clone of the famous “Rush Hour” or “Traffic Jam” game, ' +
+                      'written from scratch based on <i>ParkMeeCrazy</i>.<br><br> ' +
                       'Move the red tractor to the exit on the right by dragging others out of the way. ' +
                       'Horizontal cars can only move left and right, vertical ones can only move ' +
-                      'up and down.</small>')
+                      'up and down.')
     mainAttributions: ["2020-2022 Mirian Margiani"]
     sourcesUrl: "https://github.com/ichthyosaurus/harbour-parkingchaos"
     homepageUrl: "https://openrepos.net/content/ichthyosaurus/parking-chaos"
@@ -63,9 +63,9 @@ AboutPageBase {
     extraSections: [
         InfoSection {
             title: qsTr("Acknowledgments")
-            smallPrint: qsTr("<small><em>Parking Chaos</em> uses levels and graphics based on " +
-                             "data from <em>ParkMeeCrazy</em>, which is released under the terms of the GNU GPL v3+." +
-                             "</small><br>Thank you!")
+            smallPrint: qsTr("<i>Parking Chaos</i> uses levels and graphics based on " +
+                             "data from <i>ParkMeeCrazy</i>, which is released under the terms of the GNU GPL v3+." +
+                             "<br>Thank you!")
             buttons: [
                 InfoButton {
                     text: qsTr("Website")
