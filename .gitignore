@@ -1,3 +1,16 @@
+# This file is part of harbour-parkingchaos.
+# SPDX-FileCopyrightText: 2020-2022 Mirian Margiani
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+build*
+*.user
+*~
+dist
+icon-src/raw
+
+libs/opal-docs
+libs/opal-translations
+
 .directory
 icons-src/ships
 upstream
