@@ -4,40 +4,12 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>About this app</source>
-        <translation type="vanished">О программе</translation>
-    </message>
-    <message>
-        <source>Author</source>
-        <translation type="vanished">Автор</translation>
-    </message>
-    <message>
-        <source>Version %1</source>
-        <translation type="vanished">Версия %1</translation>
-    </message>
-    <message>
         <source>Development</source>
         <translation>Разработка</translation>
     </message>
     <message>
-        <source>&lt;i&gt;show contributors &lt;/i&gt;</source>
-        <translation type="vanished">&lt;i&gt;Показать участников &lt;/i&gt;</translation>
-    </message>
-    <message>
         <source>Website</source>
         <translation>Веб-сайт</translation>
-    </message>
-    <message>
-        <source>License</source>
-        <translation type="vanished">Лицензия</translation>
-    </message>
-    <message>
-        <source>&lt;i&gt;show license &lt;/i&gt;</source>
-        <translation type="vanished">&lt;i&gt;показать лицензию &lt;/i&gt;</translation>
-    </message>
-    <message>
-        <source>Source Code</source>
-        <translation type="vanished">Исходный код</translation>
     </message>
     <message>
         <source>Parking Chaos</source>
@@ -104,21 +76,6 @@
     </message>
 </context>
 <context>
-    <name>ContributorsPage</name>
-    <message>
-        <source>Contributors</source>
-        <translation type="vanished">Участники</translation>
-    </message>
-    <message>
-        <source>Development</source>
-        <translation type="vanished">Разработка</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="vanished">Перевод</translation>
-    </message>
-</context>
-<context>
     <name>InfoLabel</name>
     <message>
         <source>Level %1</source>
@@ -138,13 +95,6 @@
     <message>
         <source>Levels</source>
         <translation>Уровни</translation>
-    </message>
-</context>
-<context>
-    <name>LicensePage</name>
-    <message>
-        <source>License</source>
-        <translation type="vanished">Лицензия</translation>
     </message>
 </context>
 <context>
@@ -267,41 +217,6 @@
     <message>
         <source>Your contributions to translations or code would be most welcome.</source>
         <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>about</name>
-    <message>
-        <source>Programming</source>
-        <translation type="vanished">Программирование</translation>
-    </message>
-    <message>
-        <source>Graphics Design</source>
-        <translation type="vanished">Графический дизайн</translation>
-    </message>
-    <message>
-        <source>ParkMeeCrazy</source>
-        <translation type="vanished">ParkMeeCrazy</translation>
-    </message>
-    <message>
-        <source>Rush hour in your parking lot!&lt;br&gt;&lt;br&gt;&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; is a clone of the famous “Rush Hour” or “Traffic Jam” game, written from scratch based on &lt;em&gt;ParkMeeCrazy&lt;/em&gt;.&lt;br&gt;Move the red tractor to the exit on the right by dragging others out of the way. Horizontal cars can only move left and right, vertical ones can only move up and down.&lt;/small&gt;</source>
-        <translation type="vanished">Час пик на парковке!&lt;br&gt;&lt;br&gt;&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; клон игры “Час пик” или “Пробки”, созданной с нуля на основе  &lt;em&gt;ParkMeeCrazy&lt;/em&gt;.&lt;br&gt;Переместите красный трактор к выходу справа, передвигая других с дороги. Горизонтальные машины могут двигаться только влево и право, вертикальные-только вверх и вниз .&lt;/small&gt;</translation>
-    </message>
-    <message>
-        <source>Acknowledgements</source>
-        <translation type="vanished">Благодарности</translation>
-    </message>
-    <message>
-        <source>&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; uses levels and graphics based on data from &lt;em&gt;ParkMeeCrazy&lt;/em&gt;, which is released under the terms of the GNU GPL v3+.&lt;/small&gt;&lt;br&gt;Thank you!</source>
-        <translation type="vanished">&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; использует уровни и графику на основе данных из  &lt;em&gt;ParkMeeCrazy&lt;/em&gt;, which is released under the terms of the GNU GPL v3+.&lt;/small&gt;&lt;br&gt;Thank you!</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="vanished">Шведский</translation>
-    </message>
-    <message>
-        <source>English, German</source>
-        <translation type="vanished">Английский, Немецкий</translation>
     </message>
 </context>
 <context>

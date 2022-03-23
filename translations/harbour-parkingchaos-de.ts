@@ -4,40 +4,12 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>About this app</source>
-        <translation type="vanished">Über diese App</translation>
-    </message>
-    <message>
-        <source>Author</source>
-        <translation type="vanished">Autor</translation>
-    </message>
-    <message>
-        <source>Version %1</source>
-        <translation type="vanished">Version %1</translation>
-    </message>
-    <message>
         <source>Development</source>
         <translation>Entwicklung</translation>
     </message>
     <message>
-        <source>&lt;i&gt;show contributors &lt;/i&gt;</source>
-        <translation type="vanished">&lt;i&gt;Mitwirkende zeigen &lt;/i&gt;</translation>
-    </message>
-    <message>
         <source>Website</source>
         <translation>Webseite</translation>
-    </message>
-    <message>
-        <source>License</source>
-        <translation type="vanished">Lizenz</translation>
-    </message>
-    <message>
-        <source>&lt;i&gt;show license &lt;/i&gt;</source>
-        <translation type="vanished">&lt;i&gt;Lizenz zeigen &lt;/i&gt;</translation>
-    </message>
-    <message>
-        <source>Source Code</source>
-        <translation type="vanished">Quellcode</translation>
     </message>
     <message>
         <source>Parking Chaos</source>
@@ -104,21 +76,6 @@
     </message>
 </context>
 <context>
-    <name>ContributorsPage</name>
-    <message>
-        <source>Contributors</source>
-        <translation type="vanished">Mitwirkende</translation>
-    </message>
-    <message>
-        <source>Development</source>
-        <translation type="vanished">Entwicklung</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="vanished">Übersetzungen</translation>
-    </message>
-</context>
-<context>
     <name>InfoLabel</name>
     <message>
         <source>Level %1</source>
@@ -138,13 +95,6 @@
     <message>
         <source>Levels</source>
         <translation>Levels</translation>
-    </message>
-</context>
-<context>
-    <name>LicensePage</name>
-    <message>
-        <source>License</source>
-        <translation type="vanished">Lizenz</translation>
     </message>
 </context>
 <context>
@@ -255,147 +205,6 @@
 <context>
     <name>Opal.About.Common</name>
     <message>
-        <source>Author</source>
-        <translation type="vanished">Autor</translation>
-    </message>
-    <message numerus="yes">
-        <source>Author(s)</source>
-        <translation type="vanished">
-            <numerusform>Autor·in</numerusform>
-            <numerusform>Autor·innen</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>Maintainer</source>
-        <translation type="vanished">Maintainer·in</translation>
-    </message>
-    <message numerus="yes">
-        <source>Maintainer(s)</source>
-        <translation type="vanished">
-            <numerusform>Maintainer·in</numerusform>
-            <numerusform>Maintainer·innen</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>Development</source>
-        <translation type="vanished">Entwicklung</translation>
-    </message>
-    <message>
-        <source>Programming</source>
-        <translation type="vanished">Programmierung</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="vanished">Übersetzungen</translation>
-    </message>
-    <message>
-        <source>Icon Design</source>
-        <translation type="vanished">Icon-Design</translation>
-    </message>
-    <message>
-        <source>Third-party libraries</source>
-        <translation type="vanished">Externe Bibliotheken</translation>
-    </message>
-    <message>
-        <source>Data</source>
-        <translation type="vanished">Daten</translation>
-    </message>
-    <message>
-        <source>Data License</source>
-        <translation type="vanished">Daten-Lizenz</translation>
-    </message>
-    <message numerus="yes">
-        <source>Data License(s)</source>
-        <translation type="vanished">
-            <numerusform>Daten-Lizenz</numerusform>
-            <numerusform>Daten-Lizenzen</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>Terms of Use</source>
-        <translation type="vanished">Nutzungsbedingungen</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="vanished">Schwedisch</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="vanished">Polnisch</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="vanished">Deutsch</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="vanished">Französisch</translation>
-    </message>
-    <message>
-        <source>Chinese</source>
-        <translation type="vanished">Chinesisch</translation>
-    </message>
-    <message>
-        <source>English</source>
-        <translation type="vanished">Englisch</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="vanished">Italienisch</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="vanished">Finnisch</translation>
-    </message>
-    <message>
-        <source>Norwegian</source>
-        <translation type="vanished">Norwegisch</translation>
-    </message>
-    <message>
-        <source>Latvian</source>
-        <translation type="vanished">Lettisch</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="vanished">Estnisch</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="vanished">Tschechisch</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="vanished">Griechisch</translation>
-    </message>
-    <message>
-        <source>Spanish</source>
-        <translation type="vanished">Spanisch</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="vanished">Ungarisch</translation>
-    </message>
-    <message>
-        <source>Indonesian</source>
-        <translation type="vanished">Indonesisch</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="vanished">Russisch</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="vanished">Niederländisch</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="vanished">Slowakisch</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="vanished">Türkisch</translation>
-    </message>
-    <message>
         <source>If you want to support my work, you can buy me a cup of coffee.</source>
         <translation>Sie können mir gerne einen Kaffee spendieren, wenn Sie meine Arbeit unterstützen möchten.</translation>
     </message>
@@ -406,41 +215,6 @@
     <message>
         <source>Your contributions to translations or code would be most welcome.</source>
         <translation>Ihre Mitarbeit bei Übersetzungen oder der Programmierung wäre eine große Hilfe.</translation>
-    </message>
-</context>
-<context>
-    <name>about</name>
-    <message>
-        <source>Programming</source>
-        <translation type="vanished">Programmierung</translation>
-    </message>
-    <message>
-        <source>Graphics Design</source>
-        <translation type="vanished">Grafikdesign</translation>
-    </message>
-    <message>
-        <source>ParkMeeCrazy</source>
-        <translation type="vanished">ParkMeeCrazy</translation>
-    </message>
-    <message>
-        <source>Rush hour in your parking lot!&lt;br&gt;&lt;br&gt;&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; is a clone of the famous “Rush Hour” or “Traffic Jam” game, written from scratch based on &lt;em&gt;ParkMeeCrazy&lt;/em&gt;.&lt;br&gt;Move the red tractor to the exit on the right by dragging others out of the way. Horizontal cars can only move left and right, vertical ones can only move up and down.&lt;/small&gt;</source>
-        <translation type="vanished">Stosszeit auf dem Parkplatz!&lt;br&lt;br&gt;&lt;small&gt;&lt;em&gt;Parkplatzchaos&lt;/em&gt; ist ein Klon des bekannten Spiels „Rush Hour“ oder „Traffic Jam“ und ist eine neugeschriebene Fassung von &lt;em&gt;ParkMeeCrazy&lt;/em&gt;.&lt;br&gt;Bewegen Sie den roten Traktor zum Ziel auf der rechten Seite, indem Sie andere Fahrzeuge auf die Seite schieben. Horizontale Autos können nur nach links oder rechts bewegt werden, vertikale nur nach oben oder unten.&lt;/small&gt;</translation>
-    </message>
-    <message>
-        <source>Acknowledgements</source>
-        <translation type="vanished">Danksagungen</translation>
-    </message>
-    <message>
-        <source>&lt;small&gt;&lt;em&gt;Parking Chaos&lt;/em&gt; uses levels and graphics based on data from &lt;em&gt;ParkMeeCrazy&lt;/em&gt;, which is released under the terms of the GNU GPL v3+.&lt;/small&gt;&lt;br&gt;Thank you!</source>
-        <translation type="vanished">&lt;small&gt;&lt;em&gt;Parkplatzchaos&lt;/em&gt; verwendet Levels und Grafiken basierend auf Daten von &lt;em&gt;ParkMeeCrazy&lt;/em&gt;, das unter der GNU GPL v3+ veröffentlicht wurde.&lt;/small&gt;&lt;br&gt;Vielen Dank!</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="vanished">Schwedisch</translation>
-    </message>
-    <message>
-        <source>English, German</source>
-        <translation type="vanished">Englisch, Deutsch</translation>
     </message>
 </context>
 <context>

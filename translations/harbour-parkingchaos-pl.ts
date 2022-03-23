@@ -4,40 +4,12 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>About this app</source>
-        <translation type="vanished">O tej aplikacji</translation>
-    </message>
-    <message>
-        <source>Author</source>
-        <translation type="vanished">Autor</translation>
-    </message>
-    <message>
-        <source>Version %1</source>
-        <translation type="vanished">Versja %1</translation>
-    </message>
-    <message>
         <source>Development</source>
         <translation>Rozwój</translation>
     </message>
     <message>
-        <source>&lt;i&gt;show contributors &lt;/i&gt;</source>
-        <translation type="vanished">&lt;i&gt;pokaż współtwórców &lt;/i&gt;</translation>
-    </message>
-    <message>
         <source>Website</source>
         <translation>Strona internetowa</translation>
-    </message>
-    <message>
-        <source>License</source>
-        <translation type="vanished">Licencja</translation>
-    </message>
-    <message>
-        <source>&lt;i&gt;show license &lt;/i&gt;</source>
-        <translation type="vanished">&lt;i&gt;pokaż licencję &lt;/i&gt;</translation>
-    </message>
-    <message>
-        <source>Source Code</source>
-        <translation type="vanished">Kod źródłowy</translation>
     </message>
     <message>
         <source>Parking Chaos</source>
@@ -104,21 +76,6 @@
     </message>
 </context>
 <context>
-    <name>ContributorsPage</name>
-    <message>
-        <source>Contributors</source>
-        <translation type="vanished">Wspołtwórcy</translation>
-    </message>
-    <message>
-        <source>Development</source>
-        <translation type="vanished">Rozwój</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="vanished">Tłumacze</translation>
-    </message>
-</context>
-<context>
     <name>InfoLabel</name>
     <message>
         <source>Level %1</source>
@@ -138,13 +95,6 @@
     <message>
         <source>Levels</source>
         <translation>Poziomy</translation>
-    </message>
-</context>
-<context>
-    <name>LicensePage</name>
-    <message>
-        <source>License</source>
-        <translation type="vanished">Licencja</translation>
     </message>
 </context>
 <context>
@@ -257,58 +207,6 @@
 <context>
     <name>Opal.About.Common</name>
     <message>
-        <source>Development</source>
-        <translation type="vanished">Rozwój</translation>
-    </message>
-    <message>
-        <source>Programming</source>
-        <translation type="vanished">Programowanie</translation>
-    </message>
-    <message>
-        <source>Translations</source>
-        <translation type="vanished">Tłumaczenia</translation>
-    </message>
-    <message>
-        <source>Icon Design</source>
-        <translation type="vanished">Projekt ikon</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="vanished">szwedzki</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="vanished">polski</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="vanished">niemiecki</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="vanished">francuski</translation>
-    </message>
-    <message>
-        <source>Chinese</source>
-        <translation type="vanished">chiński</translation>
-    </message>
-    <message>
-        <source>English</source>
-        <translation type="vanished">angielski</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="vanished">włoski</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="vanished">fiński</translation>
-    </message>
-    <message>
-        <source>Norwegian</source>
-        <translation type="vanished">norweski</translation>
-    </message>
-    <message>
         <source>If you want to support my work, you can buy me a cup of coffee.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -319,45 +217,6 @@
     <message>
         <source>Your contributions to translations or code would be most welcome.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Author</source>
-        <translation type="vanished">Autor</translation>
-    </message>
-    <message numerus="yes">
-        <source>Author(s)</source>
-        <translation type="obsolete">
-            <numerusform>Autor</numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-        </translation>
-    </message>
-</context>
-<context>
-    <name>about</name>
-    <message>
-        <source>Programming</source>
-        <translation type="vanished">Programowanie</translation>
-    </message>
-    <message>
-        <source>Graphics Design</source>
-        <translation type="vanished">Grafika</translation>
-    </message>
-    <message>
-        <source>ParkMeeCrazy</source>
-        <translation type="vanished">ParkMeCrazy</translation>
-    </message>
-    <message>
-        <source>Acknowledgements</source>
-        <translation type="vanished">Podziękowanie</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="vanished">szwedzki</translation>
-    </message>
-    <message>
-        <source>English, German</source>
-        <translation type="vanished">angielski, niemiecki</translation>
     </message>
 </context>
 <context>
