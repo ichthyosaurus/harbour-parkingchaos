@@ -1,0 +1,40 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: harbour-parkingchaos
+Upstream-Contact: Mirian Margiani <mixosaurus+ichthyo@pm.me>
+Source: https://github.com/ichthyosaurus/harbour-parkingchaos
+
+Files: translations/*
+Copyright: 2022 harbour-parkingchaos translations contributors
+License: GPL-3.0-or-later
+
+Files: libs/opal-translations/opal-about/*
+Copyright: 2020-2022 opal-about contributors
+License: GPL-3.0-or-later
+
+Files: libs/opal-docs/*.qch
+Copyright: 2020-2022 opal contributors
+License: GPL-3.0-or-later
+
+Files: libs/module_opal-*.txt
+Copyright: 2020-2022 opal contributors
+License: GPL-3.0-or-later
+
+Files: rpm/harbour-parkingchaos.spec
+Copyright: harbour-parkingchaos contributors
+License: GPL-3.0-or-later
+Comment: This file is generated from [this file's name].yaml and shares copyright with it.
+
+Files: icons/* qml/images/*
+Copyright: Mirian Margiani
+License: CC-BY-SA-4.0
+Comment: These files are generated from the sources at icon-src/*.
+
+Files: icons-src/*
+Copyright: Mirian Margiani
+License: CC-BY-SA-4.0
+Comment: These files contain proper Dublin Core licensing metadata.
+
+Files: data-src/levels-pmc.db data/levels.json
+Copyright: 2013 Karsten Todtermuschke
+License: GPL-3.0-or-later
+Comment: Original levels database and converted levels file from ParkMeeCrazy.

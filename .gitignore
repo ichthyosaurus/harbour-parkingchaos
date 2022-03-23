@@ -6,7 +6,7 @@ build*
 *.user
 *~
 dist
-icon-src/raw
+icons-src/raw
 
 libs/opal-docs
 libs/opal-translations

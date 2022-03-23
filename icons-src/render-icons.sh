@@ -1,28 +1,35 @@
 #!/bin/bash
 #
-# This file is part of harbour-parkingchaos.
-# Copyright (C) 2020  Mirian Margiani
+# This file is part of Opal and has been released into the public domain.
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: 2020-2022 Mirian Margiani
 #
-# harbour-parkingchaos is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
+# See https://github.com/Pretty-SFOS/opal/blob/main/snippets/opal-render-icons.md
+# for documentation.
 #
-# harbour-parkingchaos is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
+# @@@ keep this line: based on template v0.3.0
 #
-# You should have received a copy of the GNU General Public License
-# along with harbour-parkingchaos.  If not, see <http://www.gnu.org/licenses/>.
-#
+c__FOR_RENDER_LIB__="0.3.0"
 
-postfix=""  # could be e.g. '-beta'
-appicons=(harbour-parkingchaos)
-# images=(harbour-parkingchaos@860x860 background@460x736)
-images=(
-    mapgrid@600x600
-    cover-background@460x736
+# Run this script from the same directory where your icon sources are located,
+# e.g. <app>/icon-src.
+source ../libs/opal-render-icons.sh
+cFORCE=false
+
+for i in raw/*.svg; do
+    if [[ "$i" -nt "${i#raw/}" ]]; then
+        scour "$i" > "${i#raw/}"
+    fi
+done
+
+cNAME="app icons"
+cITEMS=(harbour-parkingchaos)
+cRESOLUTIONS=(86 108 128 172)
+cTARGETS=(../icons/RESXxRESY)
+render_batch
+
+cNAME="graphics"
+cITEMS=(
     tile-player@200x100
     tile-02-01@200x100
     tile-02-02@200x100
@@ -31,63 +38,17 @@ images=(
     tile-02-05@200x100
     tile-02-06@200x100
     tile-02-07@200x100
+
     tile-03-01@300x100
     tile-03-02@300x100
     tile-03-03@300x100
     tile-03-04@300x100
     tile-03-05@300x100
+
+    mapgrid@600
+    cover-background@460x736
+    harbour-parkingchaos@256
 )
-
-icon_dir="../icons"
-image_dir="../qml/images"
-
-# ----------------
-
-generated=()
-target=
-prepare() { # 1: target directory
-    target="$1"
-    mkdir -p "$1"
-}
-
-render() { # 1: source base name (without .svg), 2: target base name (without .png), 3: width, 4: height
-    local in="$1.svg"
-    local out="$target/$2.png"
-
-    if [[ ! -f "$in" ]]; then
-        echo "$in skipped"
-        return
-    fi
-
-    if [[ ! "$in" -nt "$out" ]]; then
-        echo "nothing to do for $in (-> $out)"
-        return
-    fi
-
-    # replace '-o' by '-z -e' for inkscape < 1.0
-    inkscape -o "$out" -w "$3" -h "$4" "$in"
-    generated+=("$out")
-}
-
-echo "rendering app icon..."
-for i in 86 108 128 172; do
-    prepare "$icon_dir/${i}x$i"
-    for a in "${appicons[@]}"; do
-        # shared files need the postfix
-        render "$a$postfix" "$a$postfix" "$i" "$i"
-    done
-done
-
-echo "rendering images..."
-prepare "$image_dir"
-for i in "${images[@]}"; do
-    file="${i%@*}"; w="${i#*@}"; w="${w%x*}"; h="${i#*@*x}"
-    # images are not shared, output files don't need the postfix
-    render "$file$postfix" "${file#harbour-}" "$w" "$h"
-done
-
-echo "shrinking files..."
-for i in "${generated[@]}"; do
-    pngcrush "$i" "$i#"
-    mv "$i#" "$i"
-done
+cRESOLUTIONS=(F1)
+cTARGETS=(../qml/images)
+render_batch

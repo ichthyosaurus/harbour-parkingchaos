@@ -51,6 +51,12 @@ AboutPageBase {
             sources: "https://sourceforge.net/p/parkmeecrazyforsailfishos/code/ci/master/tree/"
         },
         Attribution {
+            name: "PyTraffic"
+            entries: ["2001-2005 Michel Van den Bergh"]
+            licenses: License { spdxId: "GPL-2.0-or-later" }
+            sources: "https://github.com/voyageur/pytraffic"
+        },
+        Attribution {
             name: "Opal.About"
             entries: "2018-2022 Mirian Margiani"
             licenses: License { spdxId: "GPL-3.0-or-later"}
