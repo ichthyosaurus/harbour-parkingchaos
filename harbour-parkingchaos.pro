@@ -33,10 +33,6 @@ DISTFILES += qml/harbour-parkingchaos.qml \
     translations/*.ts \
     harbour-parkingchaos.desktop
 
-DISTFILES += qml/sf-about-page/*.qml \
-    qml/sf-about-page/license.html \
-    qml/sf-about-page/about.js
-
 data.files = data
 data.path = /usr/share/$${TARGET}
 

@@ -23,8 +23,8 @@
  */
 
 import QtQuick 2.0
-import Sailfish.Silica 1.0
-import Opal.About 1.0
+//import Sailfish.Silica 1.0
+import "../modules/Opal/About"
 
 AboutPageBase {
     id: page
@@ -49,6 +49,7 @@ AboutPageBase {
             entries: ["2013 Karsten Todtermuschke, 2011 Mures Andone"]
             licenses: License { spdxId: "GPL-3.0-or-later" }
             sources: "https://sourceforge.net/p/parkmeecrazyforsailfishos/code/ci/master/tree/"
+            description: qsTr("Graphics and levels are based on data from ParkMeeCrazy.")
         },
         Attribution {
             name: "PyTraffic"
@@ -56,23 +57,17 @@ AboutPageBase {
             licenses: License { spdxId: "GPL-2.0-or-later" }
             sources: "https://github.com/voyageur/pytraffic"
         },
-        Attribution {
-            name: "Opal.About"
-            entries: "2018-2022 Mirian Margiani"
-            licenses: License { spdxId: "GPL-3.0-or-later"}
-            sources: "https://github.com/Pretty-SFOS/opal-about"
-            homepage: "https://github.com/Pretty-SFOS/opal"
-        }
+        OpalAboutAttribution { }
     ]
 
     extraSections: [
-        A.InfoSection {
+        InfoSection {
             title: qsTr("Acknowledgments")
             smallPrint: qsTr("<small><em>Parking Chaos</em> uses levels and graphics based on " +
                              "data from <em>ParkMeeCrazy</em>, which is released under the terms of the GNU GPL v3+." +
                              "</small><br>Thank you!")
             buttons: [
-                A.InfoButton {
+                InfoButton {
                     text: qsTr("Website")
                     onClicked: page.openOrCopyUrl("https://sourceforge.net/projects/parkmeecrazyforsailfishos")
                 }
