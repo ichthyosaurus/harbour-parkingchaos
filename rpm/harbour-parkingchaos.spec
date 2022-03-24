@@ -10,7 +10,7 @@ Name:       harbour-parkingchaos
 # << macros
 
 Summary:    Rush hour in your parking lot
-Version:    1.0.1
+Version:    1.1.0
 Release:    1
 Group:      Amusements/Games
 License:    GPL-3.0-or-later

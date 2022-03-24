@@ -9,6 +9,13 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Thu Mar 24 2022 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.1.0-1
+- translations: added Polish, added Russian, updated German
+- added a new Sailjail profile (no permissions required)
+- fixed settings being saved at an invalid location
+- updated about page (now using Opal.About)
+- updated all graphics, reducing overall package size
+
 * Mon Dec 21 2020 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.0.1-1
 - improved compatibility with smaller screens (smaller than Xperia X)
 - improved detection of when to disable pulley menus
