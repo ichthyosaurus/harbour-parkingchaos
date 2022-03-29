@@ -6,8 +6,8 @@
 Name:       harbour-parkingchaos
 
 # >> macros
-%define __provides_exclude_from ^%{_datadir}/.*$
 # << macros
+%define __provides_exclude_from ^%{_datadir}/.*$
 
 Summary:    Rush hour in your parking lot
 Version:    1.1.0
