@@ -23,11 +23,13 @@
  */
 
 import QtQuick 2.0
-//import Sailfish.Silica 1.0
+import Sailfish.Silica 1.0 as S
 import "../modules/Opal/About"
 
 AboutPageBase {
     id: page
+    allowedOrientations: S.Orientation.All
+
     appName: qsTr("Parking Chaos")
     appIcon: Qt.resolvedUrl("../images/harbour-parkingchaos.png")
     appVersion: APP_VERSION
