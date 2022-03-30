@@ -3,7 +3,7 @@ SPDX-FileCopyrightText: 2022 Mirian Margiani
 SPDX-License-Identifier: GFDL-1.3-or-later
 -->
 
-![Parking Chaos banner](icon-src/banner.png)
+![Parking Chaos banner](icons-src/banner.png)
 
 # Parking Chaos for Sailfish OS
 
