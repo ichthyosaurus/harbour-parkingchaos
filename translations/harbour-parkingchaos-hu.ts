@@ -30,8 +30,8 @@
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="80"/>
-        <source>Acknowledgments</source>
-        <translation type="unfinished"></translation>
+        <source>Acknowledgements</source>
+        <translation type="unfinished">Köszönetnyilvánítás</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="81"/>

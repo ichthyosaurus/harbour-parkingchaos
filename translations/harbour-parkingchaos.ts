@@ -19,11 +19,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="80"/>
-        <source>Acknowledgments</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../qml/pages/AboutPage.qml" line="98"/>
         <source>Programming</source>
         <translation type="unfinished"></translation>
@@ -71,6 +66,11 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="67"/>
         <source>Graphics and levels are based on data from ParkMeeCrazy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="80"/>
+        <source>Acknowledgements</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

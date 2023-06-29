@@ -19,9 +19,8 @@
         <translation>Parkplatzchaos</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="80"/>
         <source>Acknowledgments</source>
-        <translation>Danksagungen</translation>
+        <translation type="vanished">Danksagungen</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="98"/>
@@ -72,6 +71,11 @@
         <location filename="../qml/pages/AboutPage.qml" line="67"/>
         <source>Graphics and levels are based on data from ParkMeeCrazy.</source>
         <translation>Grafiken und Levels basieren auf Daten von ParkMeeCrazy.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="80"/>
+        <source>Acknowledgements</source>
+        <translation type="unfinished">Danksagungen</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="81"/>
