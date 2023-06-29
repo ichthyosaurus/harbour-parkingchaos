@@ -62,14 +62,14 @@ A.AboutPageBase {
         A.Attribution {
             name: "ParkMeeCrazy"
             entries: ["2013 Karsten Todtermuschke, 2011 Mures Andone"]
-            licenses: License { spdxId: "GPL-3.0-or-later" }
+            licenses: A.License { spdxId: "GPL-3.0-or-later" }
             sources: "https://sourceforge.net/p/parkmeecrazyforsailfishos/code/ci/master/tree/"
             description: qsTr("Graphics and levels are based on data from ParkMeeCrazy.")
         },
         A.Attribution {
             name: "PyTraffic"
             entries: ["2001-2005 Michel Van den Bergh"]
-            licenses: License { spdxId: "GPL-2.0-or-later" }
+            licenses: A.License { spdxId: "GPL-2.0-or-later" }
             sources: "https://github.com/voyageur/pytraffic"
         },
         A.OpalAboutAttribution {}

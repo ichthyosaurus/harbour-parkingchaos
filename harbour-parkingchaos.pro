@@ -53,6 +53,8 @@ TRANSLATIONS += translations/harbour-parkingchaos-de.ts \
     translations/harbour-parkingchaos-sv.ts \
     translations/harbour-parkingchaos-ru.ts
 
+QML_IMPORT_PATH += qml/modules
+
 # Note: version number is configured in yaml
 DEFINES += APP_VERSION=\\\"$$VERSION\\\"
 DEFINES += APP_RELEASE=\\\"$$RELEASE\\\"
