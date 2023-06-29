@@ -5,7 +5,6 @@
 build*
 *.user
 *~
-dist
 icons-src/raw
 
 libs/opal-docs
@@ -17,7 +16,6 @@ upstream
 datafile
 liverunner*
 data-src/levels*.json
-dist
 
 # C++ objects and libs
 *.slo
