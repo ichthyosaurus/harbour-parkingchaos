@@ -9,6 +9,8 @@ import Sailfish.Silica 1.0
 import Nemo.Configuration 1.0
 import "pages"
 
+import Opal.About 1.0 as A
+
 ApplicationWindow
 {
     id: app
@@ -129,6 +131,10 @@ ApplicationWindow
                 _legacyConfig0.destroy()
             }
         }
+    }
+
+    A.ChangelogNews {
+        changelogList: Qt.resolvedUrl("Changelog.qml")
     }
 
     Component.onCompleted: {
