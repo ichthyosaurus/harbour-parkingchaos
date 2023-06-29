@@ -77,7 +77,7 @@ A.AboutPageBase {
 
     extraSections: [
         A.InfoSection {
-            title: qsTr("Acknowledgments")
+            title: qsTr("Acknowledgements")
             smallPrint: qsTr("<i>Parking Chaos</i> uses levels and graphics based on " +
                              "data from <i>ParkMeeCrazy</i>, which is released under the terms of the GNU GPL v3+." +
                              "<br>Thank you!")
