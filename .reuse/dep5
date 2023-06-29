@@ -4,35 +4,48 @@ Upstream-Contact: Mirian Margiani <mixosaurus+ichthyo@pm.me>
 Source: https://github.com/ichthyosaurus/harbour-parkingchaos
 
 Files: translations/*
-Copyright: 2022 harbour-parkingchaos translations contributors
+Copyright: 2013-2023 this project's translations contributors
 License: GPL-3.0-or-later
 
-Files: libs/opal-translations/opal-about/*
-Copyright: 2020-2022 opal-about contributors
-License: GPL-3.0-or-later
-
-Files: libs/opal-docs/*.qch
-Copyright: 2020-2022 opal contributors
-License: GPL-3.0-or-later
-
-Files: libs/module_opal-*.txt
-Copyright: 2020-2022 opal contributors
-License: GPL-3.0-or-later
-
-Files: rpm/harbour-parkingchaos.spec
-Copyright: harbour-parkingchaos contributors
+Files: rpm/harbour-*.spec
+Copyright: Mirian Margiani
 License: GPL-3.0-or-later
 Comment: This file is generated from [this file's name].yaml and shares copyright with it.
 
-Files: icons/* qml/images/*
+Files: icons/* qml/images/* dist/harbour-*.png
 Copyright: Mirian Margiani
 License: CC-BY-SA-4.0
 Comment: These files are generated from the sources at icon-src/*.
 
-Files: icons-src/*
+Files: icon-src/*
 Copyright: Mirian Margiani
 License: CC-BY-SA-4.0
 Comment: These files contain proper Dublin Core licensing metadata.
+
+Files: dist/screenshots-*/*.png
+Copyright: Mirian Margiani
+License: CC-BY-NC-SA-4.0
+Comment: These files are screenshots of the running application.
+
+Files: dist/packages/*.rpm
+Copyright: Mirian Margiani
+License: GPL-3.0-or-later
+Comment: These files are generated packages.
+
+Files: dist/banner.svg
+Copyright: Mirian Margiani
+License: CC-BY-NC-SA-4.0
+Comment: This file contains proper Dublin Core licensing metadata.
+
+Files: dist/banner*.png
+Copyright: Mirian Margiani
+License: CC-BY-NC-SA-4.0
+Comment: These files are generated from banner.svg and share copyright with it.
+
+Files: dist/ambience.jpg
+Copyright: Patrick Baum
+License: LicenseRef-Unsplash
+Comment: https://unsplash.com/de/fotos/ybPRyOfroZA
 
 Files: data-src/levels-pmc.db data/levels.json
 Copyright: 2013 Karsten Todtermuschke
