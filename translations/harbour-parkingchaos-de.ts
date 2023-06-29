@@ -65,7 +65,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="53"/>
         <source>Rush hour in your parking lot!&lt;br&gt;&lt;br&gt; &lt;i&gt;Parking Chaos&lt;/i&gt; is a clone of the famous “Rush Hour” or “Traffic Jam” game, written from scratch based on &lt;i&gt;ParkMeeCrazy&lt;/i&gt;.&lt;br&gt;&lt;br&gt; Move the red tractor to the exit on the right by dragging others out of the way. Horizontal cars can only move left and right, vertical ones can only move up and down.</source>
-        <translation>Stosszeit auf dem Parkplatz!&lt;br&lt;br&gt; &lt;i&gt;Parkplatzchaos&lt;/i&gt; ist ein Klon des bekannten Spiels „Rush Hour“ oder „Traffic Jam“ und ist eine neugeschriebene Fassung von &lt;i&gt;ParkMeeCrazy&lt;/i&gt;.&lt;br&gt;&lt;br&gt; Bewegen Sie den roten Traktor zum Ziel auf der rechten Seite, indem Sie andere Fahrzeuge auf die Seite schieben. Horizontale Autos können nur nach links oder rechts bewegt werden, vertikale nur nach oben oder unten.</translation>
+        <translation>Stosszeit auf dem Parkplatz!&lt;br&gt;&lt;br&gt; &lt;i&gt;Parkplatzchaos&lt;/i&gt; ist ein Klon des bekannten Spiels „Rush Hour“ oder „Traffic Jam“ und ist eine neugeschriebene Fassung von &lt;i&gt;ParkMeeCrazy&lt;/i&gt;.&lt;br&gt;&lt;br&gt; Bewegen Sie den roten Traktor zum Ziel auf der rechten Seite, indem Sie andere Fahrzeuge auf die Seite schieben. Horizontale Autos können nur nach links oder rechts bewegt werden, vertikale nur nach oben oder unten.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="67"/>
