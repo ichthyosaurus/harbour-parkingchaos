@@ -1,6 +1,6 @@
 /*
  * This file is part of harbour-parkingchaos.
- * SPDX-FileCopyrightText: 2022 Mirian Margiani
+ * SPDX-FileCopyrightText: 2022-2023 Mirian Margiani
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -24,81 +24,94 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0 as S
-import "../modules/Opal/About"
+import Opal.About 1.0 as A
+import "../modules/Opal/Attributions"
 
-AboutPageBase {
-    id: page
-    allowedOrientations: S.Orientation.All
+A.AboutPageBase {
+    id: root
 
     appName: qsTr("Parking Chaos")
-    appIcon: Qt.resolvedUrl("../images/harbour-parkingchaos.png")
+    appIcon: Qt.resolvedUrl("../images/%1.png".arg(Qt.application.name))
     appVersion: APP_VERSION
     appRelease: APP_RELEASE
+
+    allowDownloadingLicenses: false
+    sourcesUrl: "https://github.com/ichthyosaurus/%1".arg(Qt.application.name)
+    homepageUrl: "https://forum.sailfishos.org/t/apps-by-ichthyosaurus/15753"
+    translationsUrl: "https://hosted.weblate.org/projects/%1".arg(Qt.application.name)
+    changelogList: Qt.resolvedUrl("../Changelog.qml")
+    licenses: A.License { spdxId: "GPL-3.0-or-later" }
+
+    donations.text: donations.defaultTextCoffee
+    donations.services: [
+        A.DonationService {
+            name: "Liberapay"
+            url: "https://liberapay.com/ichthyosaurus"
+        }
+    ]
+
     description: qsTr("Rush hour in your parking lot!<br><br> " +
                       '<i>Parking Chaos</i> is a clone of the famous “Rush Hour” or “Traffic Jam” game, ' +
                       'written from scratch based on <i>ParkMeeCrazy</i>.<br><br> ' +
                       'Move the red tractor to the exit on the right by dragging others out of the way. ' +
                       'Horizontal cars can only move left and right, vertical ones can only move ' +
                       'up and down.')
-    mainAttributions: ["2020-2022 Mirian Margiani"]
-    sourcesUrl: "https://github.com/ichthyosaurus/harbour-parkingchaos"
-    homepageUrl: "https://openrepos.net/content/ichthyosaurus/parking-chaos"
+    mainAttributions: ["2020-2023 Mirian Margiani"]
 
-    licenses: License { spdxId: "GPL-3.0-or-later" }
     attributions: [
-        Attribution {
+        A.Attribution {
             name: "ParkMeeCrazy"
             entries: ["2013 Karsten Todtermuschke, 2011 Mures Andone"]
             licenses: License { spdxId: "GPL-3.0-or-later" }
             sources: "https://sourceforge.net/p/parkmeecrazyforsailfishos/code/ci/master/tree/"
             description: qsTr("Graphics and levels are based on data from ParkMeeCrazy.")
         },
-        Attribution {
+        A.Attribution {
             name: "PyTraffic"
             entries: ["2001-2005 Michel Van den Bergh"]
             licenses: License { spdxId: "GPL-2.0-or-later" }
             sources: "https://github.com/voyageur/pytraffic"
         },
-        OpalAboutAttribution { }
+        A.OpalAboutAttribution {}
     ]
 
     extraSections: [
-        InfoSection {
+        A.InfoSection {
             title: qsTr("Acknowledgments")
             smallPrint: qsTr("<i>Parking Chaos</i> uses levels and graphics based on " +
                              "data from <i>ParkMeeCrazy</i>, which is released under the terms of the GNU GPL v3+." +
                              "<br>Thank you!")
             buttons: [
-                InfoButton {
+                A.InfoButton {
                     text: qsTr("Website")
-                    onClicked: page.openOrCopyUrl("https://sourceforge.net/projects/parkmeecrazyforsailfishos")
+                    onClicked: root.openOrCopyUrl("https://sourceforge.net/projects/parkmeecrazyforsailfishos")
                 }
             ]
         }
     ]
 
     contributionSections: [
-        ContributionSection {
+        A.ContributionSection {
             title: qsTr("Development")
             groups: [
-                ContributionGroup {
+                A.ContributionGroup {
                     title: qsTr("Programming")
                     entries: ["Mirian Margiani"]
                 },
-                ContributionGroup {
+                A.ContributionGroup {
                     title: qsTr("Graphics Design")
                     entries: ["Mirian Margiani", "Karsten Todtermuschke", "Michel Van den Bergh"]
                 }
             ]
         },
-        ContributionSection {
+        A.ContributionSection {
             title: qsTr("Translations")
             groups: [
-                ContributionGroup { title: qsTr("Swedish"); entries: ["Åke Engelbrektson"]},
-                ContributionGroup { title: qsTr("Polish"); entries: ["Atlochowski"]},
-                ContributionGroup { title: qsTr("Russian"); entries: ["kvakanet"]},
-                ContributionGroup { title: qsTr("Hungarian"); entries: ["1Zgp"]},
-                ContributionGroup { title: qsTr("English, German"); entries: ["Mirian Margiani"]}
+                A.ContributionGroup { title: qsTr("Swedish"); entries: ["Åke Engelbrektson"]},
+                A.ContributionGroup { title: qsTr("Polish"); entries: ["Atlochowski"]},
+                A.ContributionGroup { title: qsTr("Russian"); entries: ["kvakanet"]},
+                A.ContributionGroup { title: qsTr("Hungarian"); entries: ["1Zgp"]},
+                A.ContributionGroup { title: qsTr("English, German"); entries: ["Mirian Margiani"]}
             ]
         }
     ]
