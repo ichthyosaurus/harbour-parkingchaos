@@ -75,7 +75,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="80"/>
         <source>Acknowledgements</source>
-        <translation type="unfinished">Danksagungen</translation>
+        <translation>Danksagungen</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="81"/>
