@@ -75,7 +75,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="80"/>
         <source>Acknowledgements</source>
-        <translation type="unfinished">Podziękowanie</translation>
+        <translation>Podziękowania</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="81"/>
@@ -163,7 +163,7 @@
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="108"/>
         <location filename="../qml/modules/Opal/About/private/ChangelogPage.qml" line="16"/>
         <source>Changelog</source>
-        <translation type="unfinished"></translation>
+        <translation>Dziennik zmian</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="129"/>
@@ -173,7 +173,7 @@
     <message numerus="yes">
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="134"/>
         <source>show license(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>pokaż licencję</numerusform>
             <numerusform>pokaż licencje</numerusform>
             <numerusform>pokaż licencje</numerusform>
@@ -200,10 +200,10 @@
     <message numerus="yes">
         <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="31"/>
         <source>License(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>Licencja</numerusform>
             <numerusform>Licencje</numerusform>
-            <numerusform>Licencje</numerusform>
+            <numerusform>Licencji</numerusform>
         </translation>
     </message>
     <message>
@@ -239,7 +239,7 @@
     <message>
         <location filename="../qml/modules/Opal/About/private/ExternalUrlPage.qml" line="32"/>
         <source>Open in browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz w przeglądarce</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/ExternalUrlPage.qml" line="41"/>
@@ -249,7 +249,7 @@
     <message>
         <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="25"/>
         <source>Download license texts</source>
-        <translation type="unfinished"></translation>
+        <translation>Pobierz tekst licencji</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="105"/>
@@ -257,18 +257,18 @@
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="57"/>
         <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="47"/>
         <source>Homepage</source>
-        <translation type="unfinished"></translation>
+        <translation>Strona głowna</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="48"/>
         <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="31"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Szczegóły</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/ExternalUrlPage.qml" line="36"/>
         <source>Copied to clipboard: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Skopiowano do schowka: %1</translation>
     </message>
     <message>
         <source>Version %1 (%2)</source>
@@ -287,7 +287,7 @@
     <message>
         <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="61"/>
         <source>Changes since version %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmiany od wersji %1</translation>
     </message>
 </context>
 <context>
