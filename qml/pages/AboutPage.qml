@@ -6,21 +6,14 @@
 
 /*
  * Translators:
- * Please add yourself to the list of contributors below. If your language is already
- * in the list, add your name to the 'entries' field. If you added a new translation,
- * create a new section at the top of the list.
+ * Please add yourself to the list of translators in TRANSLATORS.json.
+ * If your language is already in the list, add your name to the 'entries'
+ * field. If you added a new translation, create a new section in the 'extra' list.
  *
  * Other contributors:
- * Please add yourself to the relevant list of contributors.
+ * Please add yourself to the relevant list of contributors below.
  *
- * <...>
- *  ContributionGroup {
- *      title: qsTr("Your language")
- *      entries: ["Existing contributor", "YOUR NAME HERE"]
- *  },
- * <...>
- *
- */
+*/
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0 as S
@@ -104,15 +97,7 @@ A.AboutPageBase {
                 }
             ]
         },
-        A.ContributionSection {
-            title: qsTr("Translations")
-            groups: [
-                A.ContributionGroup { title: qsTr("Swedish"); entries: ["Åke Engelbrektson"]},
-                A.ContributionGroup { title: qsTr("Polish"); entries: ["Atlochowski"]},
-                A.ContributionGroup { title: qsTr("Russian"); entries: ["kvakanet"]},
-                A.ContributionGroup { title: qsTr("Hungarian"); entries: ["1Zgp"]},
-                A.ContributionGroup { title: qsTr("English, German"); entries: ["Mirian Margiani"]}
-            ]
-        }
+        //>>> GENERATED LIST OF TRANSLATION CREDITS
+        //<<< GENERATED LIST OF TRANSLATION CREDITS
     ]
 }
