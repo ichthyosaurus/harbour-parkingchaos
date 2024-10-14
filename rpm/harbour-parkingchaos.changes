@@ -9,17 +9,26 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Mon Oct 14 2024 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.2.0-1
+- Updated translations: Chinese, English, Estonian, German, Norwegian Bokmål, Polish, Russian, Swedish, Ukrainian
+- Added a new support page for donations and contributions
+- Added an in-app changelog
+- Added support for all screen orientations
+- Fixed overflowing text on the cover
+- Updated translator credits (directly from Weblate)
+- General maintenance and infrastructure updates to bring the app back into shape
+
 * Thu Mar 24 2022 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.1.0-1
-- translations: added Polish, added Russian, added Hungarian, updated German
-- added a new Sailjail profile (no permissions required)
-- fixed settings being saved at an invalid location
-- updated about page (now using Opal.About)
-- updated all graphics, reducing overall package size
+- Translations: added Polish, added Russian, added Hungarian, updated German
+- Added a new Sailjail profile (no permissions required)
+- Fixed settings being saved at an invalid location
+- Updated about page (now using Opal.About)
+- Updated all graphics, reducing overall package size
 
 * Mon Dec 21 2020 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.0.1-1
-- improved compatibility with smaller screens (smaller than Xperia X)
-- improved detection of when to disable pulley menus
-- updated all translations
+- Improved compatibility with smaller screens (smaller than Xperia X)
+- Improved detection of when to disable pulley menus
+- Updated all translations
 
 * Fri Jul 17 2020 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.0.0-1
-- first public release
+- First public release

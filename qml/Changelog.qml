@@ -9,30 +9,43 @@ import "modules/Opal/About"
 
 ChangelogList {
     ChangelogItem {
+        version: "1.2.0-1"
+        date: "2024-10-14"
+        paragraphs: [
+            "- Updated translations: Chinese, English, Estonian, German, Norwegian Bokmål, Polish, Russian, Swedish, Ukrainian<br>" +
+            "- Added a new support page for donations and contributions<br>" +
+            "- Added an in-app changelog<br>" +
+            "- Added support for all screen orientations<br>" +
+            "- Fixed overflowing text on the cover<br>" +
+            "- Updated translator credits (directly from Weblate)<br>" +
+            "- General maintenance and infrastructure updates to bring the app back into shape"
+        ]
+    }
+    ChangelogItem {
         version: '1.1.0'
         date: "2022-03-24"
         paragraphs: [
-            '- translations: added Polish, added Russian, added Hungarian, updated German<br>' +
-            '- added a new Sailjail profile (no permissions required)<br>' +
-            '- fixed settings being saved at an invalid location<br>' +
-            '- updated about page (now using Opal.About)<br>' +
-            '- updated all graphics, reducing overall package size<br>' +
+            '- Translations: added Polish, added Russian, added Hungarian, updated German<br>' +
+            '- Added a new Sailjail profile (no permissions required)<br>' +
+            '- Fixed settings being saved at an invalid location<br>' +
+            '- Updated about page (now using Opal.About)<br>' +
+            '- Updated all graphics, reducing overall package size<br>' +
         '' ]
     }
     ChangelogItem {
         version: '1.0.1'
         date: "2020-12-21"
         paragraphs: [
-            '- improved compatibility with smaller screens (smaller than Xperia X)<br>' +
-            '- improved detection of when to disable pulley menus<br>' +
-            '- updated all translations<br>' +
+            '- Improved compatibility with smaller screens (smaller than Xperia X)<br>' +
+            '- Improved detection of when to disable pulley menus<br>' +
+            '- Updated all translations<br>' +
         '' ]
     }
     ChangelogItem {
         version: '1.0.0'
         date: "2020-07-17"
         paragraphs: [
-            '- first public release<br>' +
+            '- First public release<br>' +
         '' ]
     }
 }
