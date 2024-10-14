@@ -10,7 +10,7 @@ Name:       harbour-parkingchaos
 %define __provides_exclude_from ^%{_datadir}/.*$
 
 Summary:    Rush hour in your parking lot
-Version:    1.1.0
+Version:    1.2.0
 Release:    1
 Group:      Amusements/Games
 License:    GPL-3.0-or-later
