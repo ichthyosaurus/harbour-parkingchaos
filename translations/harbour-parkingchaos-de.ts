@@ -153,12 +153,12 @@
     <message>
         <location filename="../qml/components/InfoLabel.qml" line="64"/>
         <source>%1 / %2 moves</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 / %2 Zügen</translation>
     </message>
     <message>
         <location filename="../qml/components/InfoLabel.qml" line="65"/>
         <source>%1 moves</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Züge</translation>
     </message>
 </context>
 <context>
