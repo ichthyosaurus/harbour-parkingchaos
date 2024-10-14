@@ -12,13 +12,13 @@ import "pages"
 import Opal.About 1.0 as A
 import Opal.SupportMe 1.0 as M
 
-ApplicationWindow
-{
+ApplicationWindow {
     id: app
     initialPage: Component { BoardPage { } }
     cover: Qt.resolvedUrl("cover/CoverPage.qml")
-    allowedOrientations: defaultAllowedOrientations
+    allowedOrientations: Orientation.All
     bottomMargin: successBanner.visibleSize
+
     readonly property int oHORIZONTAL: 1
     readonly property int oVERTICAL: 0
 

@@ -1,6 +1,6 @@
 /*
  * This file is part of harbour-parkingchaos.
- * SPDX-FileCopyrightText: 2020-2022  Mirian Margiani
+ * SPDX-FileCopyrightText: 2020-2024  Mirian Margiani
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -9,8 +9,8 @@ import Sailfish.Silica 1.0
 import "../components"
 
 Page {
-    id: page
-    allowedOrientations: Orientation.PortraitMask
+    id: root
+    allowedOrientations: Orientation.All
 
     SilicaFlickable {
         id: flick
