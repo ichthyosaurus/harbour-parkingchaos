@@ -125,7 +125,7 @@
         <translation>关于</translation>
     </message>
     <message>
-        <location filename="../qml/pages/BoardPage.qml" line="40"/>
+        <location filename="../qml/pages/BoardPage.qml" line="44"/>
         <source>Parking Chaos</source>
         <translation>停车混乱</translation>
     </message>
@@ -146,19 +146,19 @@
 <context>
     <name>InfoLabel</name>
     <message>
-        <location filename="../qml/components/InfoLabel.qml" line="20"/>
+        <location filename="../qml/components/InfoLabel.qml" line="38"/>
         <source>Level %1</source>
         <translation>关卡 %1</translation>
     </message>
     <message>
-        <location filename="../qml/components/InfoLabel.qml" line="22"/>
-        <source>Moves: %1 / %2</source>
-        <translation>步数：%1 / %2</translation>
+        <location filename="../qml/components/InfoLabel.qml" line="64"/>
+        <source>%1 / %2 moves</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/components/InfoLabel.qml" line="23"/>
-        <source>Moves: %1</source>
-        <translation>步数：%1</translation>
+        <location filename="../qml/components/InfoLabel.qml" line="65"/>
+        <source>%1 moves</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
