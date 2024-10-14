@@ -18,7 +18,6 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0 as S
 import Opal.About 1.0 as A
-import "../modules/Opal/Attributions"
 
 A.AboutPageBase {
     id: root
@@ -50,6 +49,7 @@ A.AboutPageBase {
                       'Horizontal cars can only move left and right, vertical ones can only move ' +
                       'up and down.')
     mainAttributions: ["2020-2023 Mirian Margiani"]
+    autoAddOpalAttributions: true
 
     attributions: [
         A.Attribution {
@@ -64,8 +64,7 @@ A.AboutPageBase {
             entries: ["2001-2005 Michel Van den Bergh"]
             licenses: A.License { spdxId: "GPL-2.0-or-later" }
             sources: "https://github.com/voyageur/pytraffic"
-        },
-        A.OpalAboutAttribution {}
+        }
     ]
 
     extraSections: [
