@@ -17,7 +17,7 @@ CoverBackground {
     }
 
     InfoLabel {
-        highlighted: false
+        highlighted: true
         anchors {
             top: board.bottom; bottom: parent.bottom
             left: parent.left; right: parent.right
