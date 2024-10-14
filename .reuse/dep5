@@ -51,3 +51,7 @@ Files: data-src/levels-pmc.db data/levels.json
 Copyright: 2013 Karsten Todtermuschke
 License: GPL-3.0-or-later
 Comment: Original levels database and converted levels file from ParkMeeCrazy.
+
+Files: TRANSLATORS.json
+Copyright: translations contributors
+License: GPL-3.0-or-later
