@@ -48,7 +48,7 @@ A.AboutPageBase {
                       'Move the red tractor to the exit on the right by dragging others out of the way. ' +
                       'Horizontal cars can only move left and right, vertical ones can only move ' +
                       'up and down.')
-    mainAttributions: ["2020-2023 Mirian Margiani"]
+    mainAttributions: ["2020-%1 Mirian Margiani".arg((new Date()).getFullYear())]
     autoAddOpalAttributions: true
 
     attributions: [
