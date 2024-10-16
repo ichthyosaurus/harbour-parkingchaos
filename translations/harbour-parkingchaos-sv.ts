@@ -76,7 +76,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="130"/>
         <source>Norwegian Bokmål</source>
-        <translation type="unfinished"></translation>
+        <translation>Norskt bokmål</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="136"/>
@@ -153,12 +153,12 @@
     <message>
         <location filename="../qml/components/InfoLabel.qml" line="64"/>
         <source>%1 / %2 moves</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 / %2 förflyttningar</translation>
     </message>
     <message>
         <location filename="../qml/components/InfoLabel.qml" line="65"/>
         <source>%1 moves</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 förflyttningar</translation>
     </message>
 </context>
 <context>
