@@ -1,9 +1,7 @@
 # This file is part of harbour-parkingchaos.
+# SPDX-FileCopyrightText: 2020-2024 Mirian Margiani
 # SPDX-License-Identifier: GPL-3.0-or-later
-# SPDX-FileCopyrightText: 2020-2022 Mirian Margiani
 
-# NOTICE:
-#
 # Application name defined in TARGET has a corresponding QML filename.
 # If name defined in TARGET is changed, the following needs to be done
 # to match new name:
@@ -15,7 +13,6 @@
 
 # The name of your application
 TARGET = harbour-parkingchaos
-
 CONFIG += sailfishapp
 
 SOURCES += src/harbour-parkingchaos.cpp
@@ -43,15 +40,7 @@ SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
 # to disable building translations every time, comment out the
 # following CONFIG line
 CONFIG += sailfishapp_i18n
-
-# German translation is enabled as an example. If you aren't
-# planning to localize your app, remember to comment out the
-# following TRANSLATIONS line. And also do not forget to
-# modify the localized app name in the the .desktop file.
-TRANSLATIONS += translations/harbour-parkingchaos-de.ts \
-    translations/harbour-parkingchaos-en.ts \
-    translations/harbour-parkingchaos-sv.ts \
-    translations/harbour-parkingchaos-ru.ts
+TRANSLATIONS += translations/harbour-parkingchaos-*.ts
 
 QML_IMPORT_PATH += qml/modules
 
