@@ -11,12 +11,12 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="78"/>
         <source>Website</source>
-        <translation type="unfinished"></translation>
+        <translation>Página web</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="25"/>
         <source>Parking Chaos</source>
-        <translation type="unfinished"></translation>
+        <translation>Parking Chaos</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="90"/>
@@ -26,7 +26,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="94"/>
         <source>Graphics Design</source>
-        <translation type="unfinished"></translation>
+        <translation>Diseño gráfico</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="101"/>
@@ -86,12 +86,12 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="45"/>
         <source>Rush hour in your parking lot!&lt;br&gt;&lt;br&gt; &lt;i&gt;Parking Chaos&lt;/i&gt; is a clone of the famous “Rush Hour” or “Traffic Jam” game, written from scratch based on &lt;i&gt;ParkMeeCrazy&lt;/i&gt;.&lt;br&gt;&lt;br&gt; Move the red tractor to the exit on the right by dragging others out of the way. Horizontal cars can only move left and right, vertical ones can only move up and down.</source>
-        <translation type="unfinished"></translation>
+        <translation>¡Hora punta en su estacionamiento! &lt;br&gt;&lt;br&gt; &lt;i&gt;Parking Chaos&lt;/i&gt; es un clon del famoso juego &quot;Rush Hour&quot; o &quot;Traffic Jam&quot;, escrito desde cero basado en &lt;i&gt;ParkMeeCrazy&lt;/i&gt;. &lt;br&gt;&lt;br&gt; Mueva el tractor rojo a la salida de la derecha arrastrando a otros fuera del camino. Los coches horizontales solo pueden moverse a la izquierda y a la derecha, los verticales solo pueden moverse hacia arriba y hacia abajo.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="60"/>
         <source>Graphics and levels are based on data from ParkMeeCrazy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Los gráficos y niveles se basan en datos de ParkMeeCrazy.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="72"/>
@@ -101,7 +101,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="73"/>
         <source>&lt;i&gt;Parking Chaos&lt;/i&gt; uses levels and graphics based on data from &lt;i&gt;ParkMeeCrazy&lt;/i&gt;, which is released under the terms of the GNU GPL v3+.&lt;br&gt;Thank you!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;i&gt;Parking Chaos&lt;/i&gt; utiliza niveles y gráficos basados en datos de &lt;i&gt;ParkMeeCrazy&lt;/i&gt;, que se publica bajo los términos de la GNU GPL v3+. &lt;br&gt;¡Gracias por tu ayuda!</translation>
     </message>
 </context>
 <context>
@@ -117,7 +117,7 @@
     <message>
         <location filename="../qml/pages/BoardPage.qml" line="29"/>
         <source>Level selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar nivel</translation>
     </message>
     <message>
         <location filename="../qml/pages/BoardPage.qml" line="25"/>
@@ -127,7 +127,7 @@
     <message>
         <location filename="../qml/pages/BoardPage.qml" line="44"/>
         <source>Parking Chaos</source>
-        <translation type="unfinished"></translation>
+        <translation>Parking Chaos</translation>
     </message>
 </context>
 <context>
@@ -148,17 +148,17 @@
     <message>
         <location filename="../qml/components/InfoLabel.qml" line="38"/>
         <source>Level %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivel %1</translation>
     </message>
     <message>
         <location filename="../qml/components/InfoLabel.qml" line="64"/>
         <source>%1 / %2 moves</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 / %2 movimientos</translation>
     </message>
     <message>
         <location filename="../qml/components/InfoLabel.qml" line="65"/>
         <source>%1 moves</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 movimiento(s)</translation>
     </message>
 </context>
 <context>
@@ -166,7 +166,7 @@
     <message>
         <location filename="../qml/pages/LevelsPage.qml" line="20"/>
         <source>Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>Niveles</translation>
     </message>
 </context>
 <context>
@@ -270,7 +270,7 @@
         <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="24"/>
         <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="47"/>
         <source>Homepage</source>
-        <translation>Página web</translation>
+        <translation>Página de inicio</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="109"/>
@@ -468,24 +468,24 @@
     <message>
         <location filename="../qml/harbour-parkingchaos.qml" line="80"/>
         <source>Won!</source>
-        <translation type="unfinished"></translation>
+        <translation>¡Ganó!</translation>
     </message>
     <message>
         <location filename="../qml/harbour-parkingchaos.qml" line="101"/>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>Reiniciar</translation>
     </message>
     <message>
         <location filename="../qml/harbour-parkingchaos.qml" line="105"/>
         <source>Next level</source>
-        <translation type="unfinished"></translation>
+        <translation>Siguiente nivel</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/harbour-parkingchaos.qml" line="89"/>
         <source>You completed this level in %L1 move(s)!</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>¡Has completado este nivel en %L1 movimiento!</numerusform>
+            <numerusform>¡Has completado este nivel en %L1 movimientos!</numerusform>
         </translation>
     </message>
 </context>
