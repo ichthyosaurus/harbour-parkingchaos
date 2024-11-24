@@ -11,12 +11,12 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="78"/>
         <source>Website</source>
-        <translation type="unfinished"></translation>
+        <translation>Site Web</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="25"/>
         <source>Parking Chaos</source>
-        <translation type="unfinished"></translation>
+        <translation>Chaos dans le parking</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="90"/>
@@ -26,7 +26,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="94"/>
         <source>Graphics Design</source>
-        <translation type="unfinished"></translation>
+        <translation>Conception graphique</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="101"/>
@@ -36,7 +36,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="104"/>
         <source>Ukrainian</source>
-        <translation type="unfinished"></translation>
+        <translation>ukrainien</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="110"/>
@@ -127,7 +127,7 @@
     <message>
         <location filename="../qml/pages/BoardPage.qml" line="44"/>
         <source>Parking Chaos</source>
-        <translation type="unfinished"></translation>
+        <translation>Chaos dans le parking</translation>
     </message>
 </context>
 <context>
@@ -135,12 +135,12 @@
     <message>
         <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="53"/>
         <source>show less</source>
-        <translation>réduire</translation>
+        <translation>afficher moins</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="53"/>
         <source>show more</source>
-        <translation>voir plus</translation>
+        <translation>afficher plus</translation>
     </message>
 </context>
 <context>
@@ -148,7 +148,7 @@
     <message>
         <location filename="../qml/components/InfoLabel.qml" line="38"/>
         <source>Level %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Niveau %1</translation>
     </message>
     <message>
         <location filename="../qml/components/InfoLabel.qml" line="64"/>
@@ -166,7 +166,7 @@
     <message>
         <location filename="../qml/pages/LevelsPage.qml" line="20"/>
         <source>Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>Niveaux</translation>
     </message>
 </context>
 <context>
@@ -212,7 +212,7 @@
     <message>
         <location filename="../qml/MySupportDialog.qml" line="37"/>
         <source>Why should you care?</source>
-        <translation type="unfinished"></translation>
+        <translation>En quoi ça te concerne&#x202f;?</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="40"/>
