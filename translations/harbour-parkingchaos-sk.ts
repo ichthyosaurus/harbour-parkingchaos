@@ -11,12 +11,12 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="78"/>
         <source>Website</source>
-        <translation type="unfinished"></translation>
+        <translation>Web stránka</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="25"/>
         <source>Parking Chaos</source>
-        <translation type="unfinished"></translation>
+        <translation>Parkovanie Chaos</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="90"/>
@@ -26,7 +26,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="94"/>
         <source>Graphics Design</source>
-        <translation type="unfinished"></translation>
+        <translation>Grafika dizajn</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="101"/>
@@ -76,7 +76,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="130"/>
         <source>Norwegian Bokmål</source>
-        <translation type="unfinished"></translation>
+        <translation>Nórčina Bokmål</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="136"/>
@@ -86,12 +86,12 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="45"/>
         <source>Rush hour in your parking lot!&lt;br&gt;&lt;br&gt; &lt;i&gt;Parking Chaos&lt;/i&gt; is a clone of the famous “Rush Hour” or “Traffic Jam” game, written from scratch based on &lt;i&gt;ParkMeeCrazy&lt;/i&gt;.&lt;br&gt;&lt;br&gt; Move the red tractor to the exit on the right by dragging others out of the way. Horizontal cars can only move left and right, vertical ones can only move up and down.</source>
-        <translation type="unfinished"></translation>
+        <translation>Rush hodiny vo vašom parkovisku!&lt;br&gt;&lt;br&gt; &lt;i&gt;Parking Chaos&lt;/i&gt; je klon slávneho &quot;Rush Hour&quot; alebo &quot;Traffic Jam&quot; hra, napísal od nuly na základe &lt;i&gt;ParkMeeCrazy&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;br&gt; Presunúť červený traktor na výstup na pravej strane tým, že preťahuje ostatných z cesty. Horizontálne vozidlá môžu pohybovať len vľavo a vpravo, vertikálne môžu pohybovať len hore a dole.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="60"/>
         <source>Graphics and levels are based on data from ParkMeeCrazy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Grafika a úrovne sú založené na údajoch z ParkMeeCrazy.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="72"/>
@@ -101,7 +101,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="73"/>
         <source>&lt;i&gt;Parking Chaos&lt;/i&gt; uses levels and graphics based on data from &lt;i&gt;ParkMeeCrazy&lt;/i&gt;, which is released under the terms of the GNU GPL v3+.&lt;br&gt;Thank you!</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;i&gt;Parkovanie Chaos&lt;/i&gt; využíva úrovne a grafiku na základe údajov z &lt;i&gt;ParkMeeCrazy&lt;/i&gt;, ktorá je vydaná podľa podmienok GNU GPL v3+.&lt;br&gt;Ďakujem!</translation>
     </message>
 </context>
 <context>
@@ -117,7 +117,7 @@
     <message>
         <location filename="../qml/pages/BoardPage.qml" line="29"/>
         <source>Level selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Výber úrovne</translation>
     </message>
     <message>
         <location filename="../qml/pages/BoardPage.qml" line="25"/>
@@ -127,7 +127,7 @@
     <message>
         <location filename="../qml/pages/BoardPage.qml" line="44"/>
         <source>Parking Chaos</source>
-        <translation type="unfinished"></translation>
+        <translation>Parkovanie Chaos</translation>
     </message>
 </context>
 <context>
@@ -148,17 +148,17 @@
     <message>
         <location filename="../qml/components/InfoLabel.qml" line="38"/>
         <source>Level %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Úroveň %1</translation>
     </message>
     <message>
         <location filename="../qml/components/InfoLabel.qml" line="64"/>
         <source>%1 / %2 moves</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 / %2 pohybuje</translation>
     </message>
     <message>
         <location filename="../qml/components/InfoLabel.qml" line="65"/>
         <source>%1 moves</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 pohybuje</translation>
     </message>
 </context>
 <context>
@@ -166,7 +166,7 @@
     <message>
         <location filename="../qml/pages/LevelsPage.qml" line="20"/>
         <source>Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>Úrovne</translation>
     </message>
 </context>
 <context>
@@ -470,25 +470,25 @@
     <message>
         <location filename="../qml/harbour-parkingchaos.qml" line="80"/>
         <source>Won!</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyhral!</translation>
     </message>
     <message>
         <location filename="../qml/harbour-parkingchaos.qml" line="101"/>
         <source>Restart</source>
-        <translation type="unfinished"></translation>
+        <translation>Reštart</translation>
     </message>
     <message>
         <location filename="../qml/harbour-parkingchaos.qml" line="105"/>
         <source>Next level</source>
-        <translation type="unfinished"></translation>
+        <translation>Ďalšia úroveň</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/harbour-parkingchaos.qml" line="89"/>
         <source>You completed this level in %L1 move(s)!</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Dokončili ste túto úroveň v %L1 pohybe!</numerusform>
+            <numerusform>Dokončili ste túto úroveň v %L1 pohyboch!</numerusform>
+            <numerusform>Dokončili ste túto úroveň v %L1 pohyboch!</numerusform>
         </translation>
     </message>
 </context>
