@@ -39,47 +39,72 @@
         <translation>الأوكرانية</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="110"/>
+        <location filename="../qml/pages/AboutPage.qml" line="111"/>
+        <source>Turkish</source>
+        <translation>التركية</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="117"/>
         <source>Swedish</source>
         <translation>السويدية</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="123"/>
+        <source>Spanish</source>
+        <translation>الاسبانية</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="129"/>
+        <source>Slovak</source>
+        <translation>السلوفاكية</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="142"/>
+        <source>Portuguese (Brazil)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="148"/>
         <source>Polish</source>
         <translation>البولندية</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="142"/>
+        <location filename="../qml/pages/AboutPage.qml" line="167"/>
         <source>German</source>
         <translation>الالمانية</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="148"/>
+        <location filename="../qml/pages/AboutPage.qml" line="173"/>
+        <source>French</source>
+        <translation>الفرنسية</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="179"/>
         <source>Estonian</source>
         <translation>الاستونية</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="154"/>
+        <location filename="../qml/pages/AboutPage.qml" line="185"/>
         <source>English</source>
         <translation>الانجليزية</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="160"/>
+        <location filename="../qml/pages/AboutPage.qml" line="191"/>
         <source>Chinese</source>
         <translation>الصينية</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="116"/>
+        <location filename="../qml/pages/AboutPage.qml" line="135"/>
         <source>Russian</source>
         <translation>الروسية</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="130"/>
+        <location filename="../qml/pages/AboutPage.qml" line="155"/>
         <source>Norwegian Bokmål</source>
         <translation>النرويجية (بوكمول)</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="136"/>
+        <location filename="../qml/pages/AboutPage.qml" line="161"/>
         <source>Hungarian</source>
         <translation>المجرية</translation>
     </message>
