@@ -103,7 +103,14 @@ A.AboutPageBase {
                 A.ContributionGroup {
                     title: qsTr("Ukrainian")
                     entries: [
-                        "Dan"
+                        "Dan",
+                        "Максим Горпиніч"
+                    ]
+                },
+                A.ContributionGroup {
+                    title: qsTr("Turkish")
+                    entries: [
+                        "Burak Hüseyin Ekseli"
                     ]
                 },
                 A.ContributionGroup {
@@ -113,10 +120,28 @@ A.AboutPageBase {
                     ]
                 },
                 A.ContributionGroup {
+                    title: qsTr("Spanish")
+                    entries: [
+                        "J. Lavoie"
+                    ]
+                },
+                A.ContributionGroup {
+                    title: qsTr("Slovak")
+                    entries: [
+                        "Milan Šalka"
+                    ]
+                },
+                A.ContributionGroup {
                     title: qsTr("Russian")
                     entries: [
                         "Nikolai Sinyov",
                         "kvakanet"
+                    ]
+                },
+                A.ContributionGroup {
+                    title: qsTr("Portuguese (Brazil)")
+                    entries: [
+                        "Thiago Carmona"
                     ]
                 },
                 A.ContributionGroup {
@@ -142,6 +167,12 @@ A.AboutPageBase {
                     title: qsTr("German")
                     entries: [
                         "Mirian Margiani"
+                    ]
+                },
+                A.ContributionGroup {
+                    title: qsTr("French")
+                    entries: [
+                        "J. Lavoie"
                     ]
                 },
                 A.ContributionGroup {
