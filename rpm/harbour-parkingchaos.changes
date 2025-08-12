@@ -9,6 +9,12 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Tue Aug 12 2025 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.3.0-1
+- Added translations: Portuguese (Brazil)
+- Updated translations: Estonian, French, Portuguese (Brazil), Slovak, Spanish, Swedish, Turkish, Ukrainian
+- Fixed an issue that prevented translations from actually getting shipped
+- Updated Opal modules and merged many translations from Opal
+
 * Mon Oct 14 2024 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.2.0-1
 - Updated translations: Chinese, English, Estonian, German, Norwegian Bokmål, Polish, Russian, Swedish, Ukrainian
 - Added a new support page for donations and contributions

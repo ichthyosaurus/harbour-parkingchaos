@@ -9,6 +9,16 @@ import "modules/Opal/About"
 
 ChangelogList {
     ChangelogItem {
+        version: "1.3.0-1"
+        date: "2025-08-12"
+        paragraphs: [
+            "- Added translations: Portuguese (Brazil)<br>" +
+            "- Updated translations: Estonian, French, Portuguese (Brazil), Slovak, Spanish, Swedish, Turkish, Ukrainian<br>" +
+            "- Fixed an issue that prevented translations from actually getting shipped<br>" +
+            "- Updated Opal modules and merged many translations from Opal"
+        ]
+    }
+    ChangelogItem {
         version: "1.2.0-1"
         date: "2024-10-14"
         paragraphs: [
