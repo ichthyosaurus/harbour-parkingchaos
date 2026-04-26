@@ -61,7 +61,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="142"/>
         <source>Portuguese (Brazil)</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugués (Brasil)</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="148"/>
