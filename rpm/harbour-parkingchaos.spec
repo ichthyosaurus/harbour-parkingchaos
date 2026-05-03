@@ -14,7 +14,7 @@ Version:    1.3.0
 Release:    1
 Group:      Amusements/Games
 License:    GPL-3.0-or-later
-URL:        https://github.com/ichthyosaurus/harbour-parkingchaos
+URL:        https://codeberg.org/ichthyosaurus/harbour-parkingchaos
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-parkingchaos.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9

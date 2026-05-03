@@ -9,7 +9,7 @@ Release: 1
 # The contents of the Group field should be one of the groups listed here:
 # https://github.com/mer-tools/spectacle/blob/master/data/GROUPS
 Group: Amusements/Games
-URL: https://github.com/ichthyosaurus/harbour-parkingchaos
+URL: https://codeberg.org/ichthyosaurus/harbour-parkingchaos
 License: GPL-3.0-or-later
 # This must be generated before uploading a package to a remote build service.
 # Usually this line does not need to be modified.
