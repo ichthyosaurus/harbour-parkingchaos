@@ -1,0 +1,44 @@
+version = 1
+SPDX-PackageName = "harbour-parkingchaos"
+SPDX-PackageSupplier = "Mirian Margiani <mixosaurus+ichthyo@pm.me>"
+SPDX-PackageDownloadLocation = "https://codeberg.org/ichthyosaurus/harbour-parkingchaos"
+
+[[annotations]]
+path = "translations/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2013-2023 this project's translations contributors"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+[[annotations]]
+path = "rpm/harbour-**.spec"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Mirian Margiani"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+SPDX-FileComment = "This file is generated from [this file's name].yaml and shares copyright with it."
+
+[[annotations]]
+path = ["icons/**", "qml/images/**", "dist/harbour-**.png"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Mirian Margiani"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+SPDX-FileComment = "These files are generated from the sources at icons-src/*."
+
+[[annotations]]
+path = "icons-src/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Mirian Margiani"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+SPDX-FileComment = "These files contain proper Dublin Core licensing metadata."
+
+[[annotations]]
+path = ["data-src/levels-pmc.db", "data/levels.json"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2013 Karsten Todtermuschke"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+SPDX-FileComment = "Original levels database and converted levels file from ParkMeeCrazy."
+
+[[annotations]]
+path = "TRANSLATORS.json"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "translations contributors"
+SPDX-License-Identifier = "GPL-3.0-or-later"
